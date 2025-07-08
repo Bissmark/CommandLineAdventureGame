@@ -1,0 +1,3 @@
+C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles/AdventureGame.dir
+C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles/edit_cache.dir
+C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles/rebuild_cache.dir
