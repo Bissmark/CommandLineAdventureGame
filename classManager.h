@@ -3,7 +3,8 @@
 
 /* 
 Figure out whats going to be in this class
-
+What class is it
+What stats do the class have
 */
 
 class ClassManager

@@ -1,10 +1,12 @@
 #include <iostream>
 #include "player.h"
+#include "dice.h"
 using namespace std;
 
 int main() 
 {
     Player player;
+    Dice dice;
 
     string charName;
     string classSelection;
@@ -24,7 +26,12 @@ int main()
     cout << "You have selected a " << classSelection << endl;
     cout << "Your stats at your current level of " << player.playerLevel << " is " << startStrength << " Strength, " << startIntelligence << " Intelligence, and " << startDexterity << " Dexterity" << endl;
 
-
+    dice.Roll();
+    dice.Roll();
+    dice.Roll();
+    dice.Roll();
+    dice.Roll();
+    dice.Roll();
 
 
 

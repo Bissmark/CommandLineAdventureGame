@@ -11,4 +11,5 @@ endif()
 add_executable(${PROJECT_NAME}
     main.cpp
     player.cpp
+    dice.cpp
 )

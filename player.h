@@ -6,6 +6,7 @@ class Player
         Player();
 
         int playerLevel;
+        int playerHP;
 
     private:
         enum class PlayerType { WARRIOR, MAGE, ROGUE, SHAMAN };

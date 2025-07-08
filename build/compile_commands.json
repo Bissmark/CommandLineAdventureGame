@@ -10,5 +10,11 @@
   "command": "C:/msys64/ucrt64/bin/g++.exe   -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/player.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/player.cpp",
   "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/player.cpp",
   "output": "CMakeFiles/AdventureGame.dir/player.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
+  "command": "C:/msys64/ucrt64/bin/g++.exe   -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/dice.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/dice.cpp",
+  "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/dice.cpp",
+  "output": "CMakeFiles/AdventureGame.dir/dice.cpp.obj"
 }
 ]

@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/dice.cpp" "CMakeFiles/AdventureGame.dir/dice.cpp.obj" "gcc" "CMakeFiles/AdventureGame.dir/dice.cpp.obj.d"
   "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/main.cpp" "CMakeFiles/AdventureGame.dir/main.cpp.obj" "gcc" "CMakeFiles/AdventureGame.dir/main.cpp.obj.d"
   "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/player.cpp" "CMakeFiles/AdventureGame.dir/player.cpp.obj" "gcc" "CMakeFiles/AdventureGame.dir/player.cpp.obj.d"
   )

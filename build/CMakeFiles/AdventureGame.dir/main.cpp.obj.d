@@ -136,4 +136,5 @@ CMakeFiles/AdventureGame.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/14.2.0/istream \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/istream.tcc \
- C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/player.h
+ C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/player.h \
+ C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/dice.h

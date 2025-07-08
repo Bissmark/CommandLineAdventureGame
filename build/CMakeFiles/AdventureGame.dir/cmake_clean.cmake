@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "AdventureGame.exe"
   "AdventureGame.exe.manifest"
   "AdventureGame.pdb"
+  "CMakeFiles/AdventureGame.dir/dice.cpp.obj"
+  "CMakeFiles/AdventureGame.dir/dice.cpp.obj.d"
   "CMakeFiles/AdventureGame.dir/main.cpp.obj"
   "CMakeFiles/AdventureGame.dir/main.cpp.obj.d"
   "CMakeFiles/AdventureGame.dir/player.cpp.obj"

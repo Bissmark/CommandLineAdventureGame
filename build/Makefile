@@ -129,6 +129,30 @@ AdventureGame/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/build
 .PHONY : AdventureGame/fast
 
+dice.obj: dice.cpp.obj
+.PHONY : dice.obj
+
+# target to build an object file
+dice.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/dice.cpp.obj
+.PHONY : dice.cpp.obj
+
+dice.i: dice.cpp.i
+.PHONY : dice.i
+
+# target to preprocess a source file
+dice.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/dice.cpp.i
+.PHONY : dice.cpp.i
+
+dice.s: dice.cpp.s
+.PHONY : dice.s
+
+# target to generate assembly for a file
+dice.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/dice.cpp.s
+.PHONY : dice.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... AdventureGame"
+	@echo "... dice.obj"
+	@echo "... dice.i"
+	@echo "... dice.s"
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
