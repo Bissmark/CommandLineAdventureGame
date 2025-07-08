@@ -1,13 +1,10 @@
 #pragma once
+#include "character.h"
 
-class Player
+class Player : public Character
 {
     public:
-        Player();
-
-        int playerLevel;
-        int playerHP;
+        Player(string charName);
 
     private:
-        enum class PlayerType { WARRIOR, MAGE, ROGUE, SHAMAN };
 };

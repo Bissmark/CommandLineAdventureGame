@@ -129,6 +129,30 @@ AdventureGame/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/build
 .PHONY : AdventureGame/fast
 
+character.obj: character.cpp.obj
+.PHONY : character.obj
+
+# target to build an object file
+character.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/character.cpp.obj
+.PHONY : character.cpp.obj
+
+character.i: character.cpp.i
+.PHONY : character.i
+
+# target to preprocess a source file
+character.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/character.cpp.i
+.PHONY : character.cpp.i
+
+character.s: character.cpp.s
+.PHONY : character.s
+
+# target to generate assembly for a file
+character.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/character.cpp.s
+.PHONY : character.cpp.s
+
 dice.obj: dice.cpp.obj
 .PHONY : dice.obj
 
@@ -152,6 +176,30 @@ dice.s: dice.cpp.s
 dice.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/dice.cpp.s
 .PHONY : dice.cpp.s
+
+mage.obj: mage.cpp.obj
+.PHONY : mage.obj
+
+# target to build an object file
+mage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/mage.cpp.obj
+.PHONY : mage.cpp.obj
+
+mage.i: mage.cpp.i
+.PHONY : mage.i
+
+# target to preprocess a source file
+mage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/mage.cpp.i
+.PHONY : mage.cpp.i
+
+mage.s: mage.cpp.s
+.PHONY : mage.s
+
+# target to generate assembly for a file
+mage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/mage.cpp.s
+.PHONY : mage.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -201,6 +249,78 @@ player.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/player.cpp.s
 .PHONY : player.cpp.s
 
+rogue.obj: rogue.cpp.obj
+.PHONY : rogue.obj
+
+# target to build an object file
+rogue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/rogue.cpp.obj
+.PHONY : rogue.cpp.obj
+
+rogue.i: rogue.cpp.i
+.PHONY : rogue.i
+
+# target to preprocess a source file
+rogue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/rogue.cpp.i
+.PHONY : rogue.cpp.i
+
+rogue.s: rogue.cpp.s
+.PHONY : rogue.s
+
+# target to generate assembly for a file
+rogue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/rogue.cpp.s
+.PHONY : rogue.cpp.s
+
+shaman.obj: shaman.cpp.obj
+.PHONY : shaman.obj
+
+# target to build an object file
+shaman.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/shaman.cpp.obj
+.PHONY : shaman.cpp.obj
+
+shaman.i: shaman.cpp.i
+.PHONY : shaman.i
+
+# target to preprocess a source file
+shaman.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/shaman.cpp.i
+.PHONY : shaman.cpp.i
+
+shaman.s: shaman.cpp.s
+.PHONY : shaman.s
+
+# target to generate assembly for a file
+shaman.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/shaman.cpp.s
+.PHONY : shaman.cpp.s
+
+warrior.obj: warrior.cpp.obj
+.PHONY : warrior.obj
+
+# target to build an object file
+warrior.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/warrior.cpp.obj
+.PHONY : warrior.cpp.obj
+
+warrior.i: warrior.cpp.i
+.PHONY : warrior.i
+
+# target to preprocess a source file
+warrior.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/warrior.cpp.i
+.PHONY : warrior.cpp.i
+
+warrior.s: warrior.cpp.s
+.PHONY : warrior.s
+
+# target to generate assembly for a file
+warrior.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/warrior.cpp.s
+.PHONY : warrior.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -210,15 +330,30 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... AdventureGame"
+	@echo "... character.obj"
+	@echo "... character.i"
+	@echo "... character.s"
 	@echo "... dice.obj"
 	@echo "... dice.i"
 	@echo "... dice.s"
+	@echo "... mage.obj"
+	@echo "... mage.i"
+	@echo "... mage.s"
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
 	@echo "... player.obj"
 	@echo "... player.i"
 	@echo "... player.s"
+	@echo "... rogue.obj"
+	@echo "... rogue.i"
+	@echo "... rogue.s"
+	@echo "... shaman.obj"
+	@echo "... shaman.i"
+	@echo "... shaman.s"
+	@echo "... warrior.obj"
+	@echo "... warrior.i"
+	@echo "... warrior.s"
 .PHONY : help
 
 

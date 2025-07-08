@@ -1,6 +1,4 @@
 #include "player.h"
 
-Player::Player() {
-    playerLevel = 1;
-    playerHP = 10;
+Player::Player(string charName) : Character(charName) {
 }

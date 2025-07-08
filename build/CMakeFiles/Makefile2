@@ -81,12 +81,12 @@ clean: CMakeFiles/AdventureGame.dir/clean
 CMakeFiles/AdventureGame.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=1,2,3,4 "Built target AdventureGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target AdventureGame"
 .PHONY : CMakeFiles/AdventureGame.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/AdventureGame.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/AdventureGame.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles 0
 .PHONY : CMakeFiles/AdventureGame.dir/rule

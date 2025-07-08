@@ -12,4 +12,9 @@ add_executable(${PROJECT_NAME}
     main.cpp
     player.cpp
     dice.cpp
+    character.cpp
+    warrior.cpp
+    mage.cpp
+    rogue.cpp
+    shaman.cpp
 )

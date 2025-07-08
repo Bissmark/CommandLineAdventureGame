@@ -111,11 +111,86 @@ CMakeFiles/AdventureGame.dir/dice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AdventureGame.dir/dice.cpp.s"
 	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/dice.cpp -o CMakeFiles/AdventureGame.dir/dice.cpp.s
 
+CMakeFiles/AdventureGame.dir/character.cpp.obj: CMakeFiles/AdventureGame.dir/flags.make
+CMakeFiles/AdventureGame.dir/character.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/character.cpp
+CMakeFiles/AdventureGame.dir/character.cpp.obj: CMakeFiles/AdventureGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/AdventureGame.dir/character.cpp.obj"
+	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AdventureGame.dir/character.cpp.obj -MF CMakeFiles/AdventureGame.dir/character.cpp.obj.d -o CMakeFiles/AdventureGame.dir/character.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/character.cpp
+
+CMakeFiles/AdventureGame.dir/character.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AdventureGame.dir/character.cpp.i"
+	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/character.cpp > CMakeFiles/AdventureGame.dir/character.cpp.i
+
+CMakeFiles/AdventureGame.dir/character.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AdventureGame.dir/character.cpp.s"
+	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/character.cpp -o CMakeFiles/AdventureGame.dir/character.cpp.s
+
+CMakeFiles/AdventureGame.dir/warrior.cpp.obj: CMakeFiles/AdventureGame.dir/flags.make
+CMakeFiles/AdventureGame.dir/warrior.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/warrior.cpp
+CMakeFiles/AdventureGame.dir/warrior.cpp.obj: CMakeFiles/AdventureGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/AdventureGame.dir/warrior.cpp.obj"
+	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AdventureGame.dir/warrior.cpp.obj -MF CMakeFiles/AdventureGame.dir/warrior.cpp.obj.d -o CMakeFiles/AdventureGame.dir/warrior.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/warrior.cpp
+
+CMakeFiles/AdventureGame.dir/warrior.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AdventureGame.dir/warrior.cpp.i"
+	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/warrior.cpp > CMakeFiles/AdventureGame.dir/warrior.cpp.i
+
+CMakeFiles/AdventureGame.dir/warrior.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AdventureGame.dir/warrior.cpp.s"
+	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/warrior.cpp -o CMakeFiles/AdventureGame.dir/warrior.cpp.s
+
+CMakeFiles/AdventureGame.dir/mage.cpp.obj: CMakeFiles/AdventureGame.dir/flags.make
+CMakeFiles/AdventureGame.dir/mage.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/mage.cpp
+CMakeFiles/AdventureGame.dir/mage.cpp.obj: CMakeFiles/AdventureGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/AdventureGame.dir/mage.cpp.obj"
+	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AdventureGame.dir/mage.cpp.obj -MF CMakeFiles/AdventureGame.dir/mage.cpp.obj.d -o CMakeFiles/AdventureGame.dir/mage.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/mage.cpp
+
+CMakeFiles/AdventureGame.dir/mage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AdventureGame.dir/mage.cpp.i"
+	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/mage.cpp > CMakeFiles/AdventureGame.dir/mage.cpp.i
+
+CMakeFiles/AdventureGame.dir/mage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AdventureGame.dir/mage.cpp.s"
+	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/mage.cpp -o CMakeFiles/AdventureGame.dir/mage.cpp.s
+
+CMakeFiles/AdventureGame.dir/rogue.cpp.obj: CMakeFiles/AdventureGame.dir/flags.make
+CMakeFiles/AdventureGame.dir/rogue.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/rogue.cpp
+CMakeFiles/AdventureGame.dir/rogue.cpp.obj: CMakeFiles/AdventureGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/AdventureGame.dir/rogue.cpp.obj"
+	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AdventureGame.dir/rogue.cpp.obj -MF CMakeFiles/AdventureGame.dir/rogue.cpp.obj.d -o CMakeFiles/AdventureGame.dir/rogue.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/rogue.cpp
+
+CMakeFiles/AdventureGame.dir/rogue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AdventureGame.dir/rogue.cpp.i"
+	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/rogue.cpp > CMakeFiles/AdventureGame.dir/rogue.cpp.i
+
+CMakeFiles/AdventureGame.dir/rogue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AdventureGame.dir/rogue.cpp.s"
+	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/rogue.cpp -o CMakeFiles/AdventureGame.dir/rogue.cpp.s
+
+CMakeFiles/AdventureGame.dir/shaman.cpp.obj: CMakeFiles/AdventureGame.dir/flags.make
+CMakeFiles/AdventureGame.dir/shaman.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/shaman.cpp
+CMakeFiles/AdventureGame.dir/shaman.cpp.obj: CMakeFiles/AdventureGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/AdventureGame.dir/shaman.cpp.obj"
+	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AdventureGame.dir/shaman.cpp.obj -MF CMakeFiles/AdventureGame.dir/shaman.cpp.obj.d -o CMakeFiles/AdventureGame.dir/shaman.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/shaman.cpp
+
+CMakeFiles/AdventureGame.dir/shaman.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AdventureGame.dir/shaman.cpp.i"
+	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/shaman.cpp > CMakeFiles/AdventureGame.dir/shaman.cpp.i
+
+CMakeFiles/AdventureGame.dir/shaman.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AdventureGame.dir/shaman.cpp.s"
+	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/shaman.cpp -o CMakeFiles/AdventureGame.dir/shaman.cpp.s
+
 # Object files for target AdventureGame
 AdventureGame_OBJECTS = \
 "CMakeFiles/AdventureGame.dir/main.cpp.obj" \
 "CMakeFiles/AdventureGame.dir/player.cpp.obj" \
-"CMakeFiles/AdventureGame.dir/dice.cpp.obj"
+"CMakeFiles/AdventureGame.dir/dice.cpp.obj" \
+"CMakeFiles/AdventureGame.dir/character.cpp.obj" \
+"CMakeFiles/AdventureGame.dir/warrior.cpp.obj" \
+"CMakeFiles/AdventureGame.dir/mage.cpp.obj" \
+"CMakeFiles/AdventureGame.dir/rogue.cpp.obj" \
+"CMakeFiles/AdventureGame.dir/shaman.cpp.obj"
 
 # External object files for target AdventureGame
 AdventureGame_EXTERNAL_OBJECTS =
@@ -123,10 +198,15 @@ AdventureGame_EXTERNAL_OBJECTS =
 AdventureGame.exe: CMakeFiles/AdventureGame.dir/main.cpp.obj
 AdventureGame.exe: CMakeFiles/AdventureGame.dir/player.cpp.obj
 AdventureGame.exe: CMakeFiles/AdventureGame.dir/dice.cpp.obj
+AdventureGame.exe: CMakeFiles/AdventureGame.dir/character.cpp.obj
+AdventureGame.exe: CMakeFiles/AdventureGame.dir/warrior.cpp.obj
+AdventureGame.exe: CMakeFiles/AdventureGame.dir/mage.cpp.obj
+AdventureGame.exe: CMakeFiles/AdventureGame.dir/rogue.cpp.obj
+AdventureGame.exe: CMakeFiles/AdventureGame.dir/shaman.cpp.obj
 AdventureGame.exe: CMakeFiles/AdventureGame.dir/build.make
 AdventureGame.exe: CMakeFiles/AdventureGame.dir/linkLibs.rsp
 AdventureGame.exe: CMakeFiles/AdventureGame.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable AdventureGame.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable AdventureGame.exe"
 	"C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/AdventureGame.dir/objects.a
 	C:/msys64/ucrt64/bin/ar.exe qc CMakeFiles/AdventureGame.dir/objects.a @CMakeFiles/AdventureGame.dir/objects1.rsp
 	C:/msys64/ucrt64/bin/g++.exe -g -Wl,--whole-archive CMakeFiles/AdventureGame.dir/objects.a -Wl,--no-whole-archive -o AdventureGame.exe -Wl,--out-implib,libAdventureGame.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/AdventureGame.dir/linkLibs.rsp

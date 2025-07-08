@@ -137,4 +137,9 @@ CMakeFiles/AdventureGame.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/istream \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/istream.tcc \
  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/player.h \
+ C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/character.h \
+ C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/warrior.h \
+ C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/mage.h \
+ C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/rogue.h \
+ C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/shaman.h \
  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/dice.h

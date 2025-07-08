@@ -16,5 +16,35 @@
   "command": "C:/msys64/ucrt64/bin/g++.exe   -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/dice.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/dice.cpp",
   "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/dice.cpp",
   "output": "CMakeFiles/AdventureGame.dir/dice.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
+  "command": "C:/msys64/ucrt64/bin/g++.exe   -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/character.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/character.cpp",
+  "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/character.cpp",
+  "output": "CMakeFiles/AdventureGame.dir/character.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
+  "command": "C:/msys64/ucrt64/bin/g++.exe   -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/warrior.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/warrior.cpp",
+  "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/warrior.cpp",
+  "output": "CMakeFiles/AdventureGame.dir/warrior.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
+  "command": "C:/msys64/ucrt64/bin/g++.exe   -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/mage.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/mage.cpp",
+  "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/mage.cpp",
+  "output": "CMakeFiles/AdventureGame.dir/mage.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
+  "command": "C:/msys64/ucrt64/bin/g++.exe   -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/rogue.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/rogue.cpp",
+  "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/rogue.cpp",
+  "output": "CMakeFiles/AdventureGame.dir/rogue.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
+  "command": "C:/msys64/ucrt64/bin/g++.exe   -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/shaman.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/shaman.cpp",
+  "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/shaman.cpp",
+  "output": "CMakeFiles/AdventureGame.dir/shaman.cpp.obj"
 }
 ]

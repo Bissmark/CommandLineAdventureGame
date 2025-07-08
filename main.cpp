@@ -1,18 +1,19 @@
 #include <iostream>
 #include "player.h"
+#include "warrior.h"
+#include "mage.h"
+#include "rogue.h"
+#include "shaman.h"
 #include "dice.h"
 using namespace std;
 
 int main() 
 {
-    Player player;
+    Player* player = nullptr;
     Dice dice;
 
     string charName;
     string classSelection;
-    int startStrength = 0;
-    int startIntelligence = 0;
-    int startDexterity = 0;
 
     cout << "\n" << "-----------------------------------------------------------------------------" << endl;
     cout << "- Welcome to Adventure Game, First please create a name for your character: -" << endl;
@@ -23,17 +24,21 @@ int main()
     cout << "First of all, what sort of class would you like to be, You can be a Warrior, Mage, Rogue or Shaman" << endl;
     cin >> classSelection;
 
+    if (classSelection == "Warrior") {
+        player = new Warrior(charName);
+    } else if (classSelection == "Mage") {
+        player = new Mage(charName); 
+    } else if (classSelection == "Rogue") {
+        player = new Rogue(charName);
+    } else if (classSelection == "Shaman") {
+        player = new Shaman(charName);
+    }
+
     cout << "You have selected a " << classSelection << endl;
-    cout << "Your stats at your current level of " << player.playerLevel << " is " << startStrength << " Strength, " << startIntelligence << " Intelligence, and " << startDexterity << " Dexterity" << endl;
+    cout << "Your stats at your current level of " << player->getLevel() << " is " << player->getStrength() << " Strength, " << player->getIntelligence() << " Intelligence, and " << player->getDexterity() << " Dexterity" << endl;
 
-    dice.Roll();
-    dice.Roll();
-    dice.Roll();
-    dice.Roll();
-    dice.Roll();
-    dice.Roll();
+    // dice.Roll();
 
-
-
+    delete player;
     return 0;
 }
