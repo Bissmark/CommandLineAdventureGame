@@ -1,12 +1,16 @@
 #pragma once
 #include <iostream>
+#include <vector>
 #include "fight.h"
+#include "player.h"
+
 using namespace std;
 
 class StartStory {
     public:
-        StartStory();
-        void ChapterOne();
+        StartStory(Player* player);
+        void RandomEncounter();
+        string GetRandomEnemy();
     private:
-        Fight fight;
+        Player* player;
 };

@@ -301,6 +301,7 @@ CMakeFiles/AdventureGame.dir/encounter.cpp.obj: C:/Users/Gosh_/Desktop/Programmi
 CMakeFiles/AdventureGame.dir/enemy.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/enemy.cpp \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/character.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/enemy.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/gnoll.h \
   C:/msys64/ucrt64/include/_mingw.h \
   C:/msys64/ucrt64/include/_mingw_mac.h \
   C:/msys64/ucrt64/include/_mingw_off_t.h \
@@ -447,7 +448,10 @@ CMakeFiles/AdventureGame.dir/enemy.cpp.obj: C:/Users/Gosh_/Desktop/Programming/P
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h
 
 CMakeFiles/AdventureGame.dir/fight.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/fight.cpp \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/character.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/enemy.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/fight.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/player.h \
   C:/msys64/ucrt64/include/_mingw.h \
   C:/msys64/ucrt64/include/_mingw_mac.h \
   C:/msys64/ucrt64/include/_mingw_off_t.h \
@@ -902,6 +906,7 @@ CMakeFiles/AdventureGame.dir/mage.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Pr
 CMakeFiles/AdventureGame.dir/main.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/main.cpp \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/character.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/dice.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/enemy.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/fight.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/mage.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/player.h \
@@ -961,6 +966,7 @@ CMakeFiles/AdventureGame.dir/main.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Pr
   C:/msys64/ucrt64/include/c++/14.2.0/bits/std_abs.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algo.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_bvector.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_construct.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_function.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_heap.h \
@@ -969,6 +975,8 @@ CMakeFiles/AdventureGame.dir/main.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Pr
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_types.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_pair.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_tempbuf.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_uninitialized.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_vector.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf.tcc \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf_iterator.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/string_view.tcc \
@@ -977,6 +985,7 @@ CMakeFiles/AdventureGame.dir/main.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Pr
   C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator_args.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/utility.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/vector.tcc \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h \
   C:/msys64/ucrt64/include/c++/14.2.0/cctype \
   C:/msys64/ucrt64/include/c++/14.2.0/cerrno \
@@ -1014,6 +1023,7 @@ CMakeFiles/AdventureGame.dir/main.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Pr
   C:/msys64/ucrt64/include/c++/14.2.0/tuple \
   C:/msys64/ucrt64/include/c++/14.2.0/type_traits \
   C:/msys64/ucrt64/include/c++/14.2.0/typeinfo \
+  C:/msys64/ucrt64/include/c++/14.2.0/vector \
   C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
   C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -1509,7 +1519,10 @@ CMakeFiles/AdventureGame.dir/shaman.cpp.obj: C:/Users/Gosh_/Desktop/Programming/
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h
 
 CMakeFiles/AdventureGame.dir/startStory.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/startStory.cpp \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/character.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/enemy.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/fight.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/player.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/startStory.h \
   C:/msys64/ucrt64/include/_mingw.h \
   C:/msys64/ucrt64/include/_mingw_mac.h \
@@ -1563,6 +1576,7 @@ CMakeFiles/AdventureGame.dir/startStory.cpp.obj: C:/Users/Gosh_/Desktop/Programm
   C:/msys64/ucrt64/include/c++/14.2.0/bits/std_abs.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algo.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_bvector.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_construct.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_function.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_heap.h \
@@ -1571,6 +1585,8 @@ CMakeFiles/AdventureGame.dir/startStory.cpp.obj: C:/Users/Gosh_/Desktop/Programm
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_types.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_pair.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_tempbuf.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_uninitialized.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_vector.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf.tcc \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf_iterator.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/string_view.tcc \
@@ -1579,6 +1595,7 @@ CMakeFiles/AdventureGame.dir/startStory.cpp.obj: C:/Users/Gosh_/Desktop/Programm
   C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator_args.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/utility.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/vector.tcc \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h \
   C:/msys64/ucrt64/include/c++/14.2.0/cctype \
   C:/msys64/ucrt64/include/c++/14.2.0/cerrno \
@@ -1616,6 +1633,7 @@ CMakeFiles/AdventureGame.dir/startStory.cpp.obj: C:/Users/Gosh_/Desktop/Programm
   C:/msys64/ucrt64/include/c++/14.2.0/tuple \
   C:/msys64/ucrt64/include/c++/14.2.0/type_traits \
   C:/msys64/ucrt64/include/c++/14.2.0/typeinfo \
+  C:/msys64/ucrt64/include/c++/14.2.0/vector \
   C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
   C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -2163,6 +2181,16 @@ C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/shaman.h:
 C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/startStory.h:
 
 C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/warrior.h:
+
+C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_bvector.h:
+
+C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_uninitialized.h:
+
+C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_vector.h:
+
+C:/msys64/ucrt64/include/c++/14.2.0/bits/vector.tcc:
+
+C:/msys64/ucrt64/include/c++/14.2.0/vector:
 
 C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/startStory.cpp:
 

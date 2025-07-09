@@ -9,4 +9,5 @@ Gnoll::Gnoll(string charName) : Enemy(charName) {
     currentHP = maxHP;
     maxMana = 10;
     currentMana = maxMana;
+    currentExperience = 5;
 }

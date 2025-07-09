@@ -1,14 +1,22 @@
 #pragma once
 #include <iostream>
 #include <algorithm>
+#include "player.h"
+#include "enemy.h"
 using namespace std;
-
-
 
 class Fight {
     public:
-        Fight();
-        // I want a UI for what the player will do within the fight, we can work it off pokemon to begin with
+        Fight(Player* p, string enemyType);
+        ~Fight();
         void FightMenu();
+        void FightScreen();
+        void PlayerTurn();
+        void EnemyTurn();
+        void Run();
     private:
+        Player* player;
+        Enemy* enemy;
+        bool fightActive;
+        int whosTurn;
 };

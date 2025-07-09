@@ -12,6 +12,12 @@ class Character
         int getStrength() const { return strength; }
         int getIntelligence() const { return intelligence; }
         int getDexterity() const { return dexterity; }
+        int getHP() const { return currentHP; }
+        int getExperience() const { return currentExperience; }
+
+        void takeDamage(int damage);
+        void heal(int amount);
+        bool isAlive() const;
 
     protected:
         string name;
@@ -23,4 +29,6 @@ class Character
         int currentHP;
         int maxMana;
         int currentMana;
+        int currentGold;
+        int currentExperience;
 };
