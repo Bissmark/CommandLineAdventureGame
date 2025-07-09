@@ -142,4 +142,14 @@ CMakeFiles/AdventureGame.dir/main.cpp.obj: \
  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/mage.h \
  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/rogue.h \
  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/shaman.h \
- C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/dice.h
+ C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/dice.h \
+ C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/startStory.h \
+ C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/fight.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/algorithm \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algo.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/algorithmfwd.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_heap.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/uniform_int_dist.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_tempbuf.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/pstl/glue_algorithm_defs.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/pstl/execution_defs.h

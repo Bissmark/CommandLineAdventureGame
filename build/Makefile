@@ -177,6 +177,102 @@ dice.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/dice.cpp.s
 .PHONY : dice.cpp.s
 
+encounter.obj: encounter.cpp.obj
+.PHONY : encounter.obj
+
+# target to build an object file
+encounter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/encounter.cpp.obj
+.PHONY : encounter.cpp.obj
+
+encounter.i: encounter.cpp.i
+.PHONY : encounter.i
+
+# target to preprocess a source file
+encounter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/encounter.cpp.i
+.PHONY : encounter.cpp.i
+
+encounter.s: encounter.cpp.s
+.PHONY : encounter.s
+
+# target to generate assembly for a file
+encounter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/encounter.cpp.s
+.PHONY : encounter.cpp.s
+
+enemy.obj: enemy.cpp.obj
+.PHONY : enemy.obj
+
+# target to build an object file
+enemy.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/enemy.cpp.obj
+.PHONY : enemy.cpp.obj
+
+enemy.i: enemy.cpp.i
+.PHONY : enemy.i
+
+# target to preprocess a source file
+enemy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/enemy.cpp.i
+.PHONY : enemy.cpp.i
+
+enemy.s: enemy.cpp.s
+.PHONY : enemy.s
+
+# target to generate assembly for a file
+enemy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/enemy.cpp.s
+.PHONY : enemy.cpp.s
+
+fight.obj: fight.cpp.obj
+.PHONY : fight.obj
+
+# target to build an object file
+fight.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/fight.cpp.obj
+.PHONY : fight.cpp.obj
+
+fight.i: fight.cpp.i
+.PHONY : fight.i
+
+# target to preprocess a source file
+fight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/fight.cpp.i
+.PHONY : fight.cpp.i
+
+fight.s: fight.cpp.s
+.PHONY : fight.s
+
+# target to generate assembly for a file
+fight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/fight.cpp.s
+.PHONY : fight.cpp.s
+
+gnoll.obj: gnoll.cpp.obj
+.PHONY : gnoll.obj
+
+# target to build an object file
+gnoll.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/gnoll.cpp.obj
+.PHONY : gnoll.cpp.obj
+
+gnoll.i: gnoll.cpp.i
+.PHONY : gnoll.i
+
+# target to preprocess a source file
+gnoll.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/gnoll.cpp.i
+.PHONY : gnoll.cpp.i
+
+gnoll.s: gnoll.cpp.s
+.PHONY : gnoll.s
+
+# target to generate assembly for a file
+gnoll.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/gnoll.cpp.s
+.PHONY : gnoll.cpp.s
+
 mage.obj: mage.cpp.obj
 .PHONY : mage.obj
 
@@ -297,6 +393,30 @@ shaman.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/shaman.cpp.s
 .PHONY : shaman.cpp.s
 
+startStory.obj: startStory.cpp.obj
+.PHONY : startStory.obj
+
+# target to build an object file
+startStory.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/startStory.cpp.obj
+.PHONY : startStory.cpp.obj
+
+startStory.i: startStory.cpp.i
+.PHONY : startStory.i
+
+# target to preprocess a source file
+startStory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/startStory.cpp.i
+.PHONY : startStory.cpp.i
+
+startStory.s: startStory.cpp.s
+.PHONY : startStory.s
+
+# target to generate assembly for a file
+startStory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/startStory.cpp.s
+.PHONY : startStory.cpp.s
+
 warrior.obj: warrior.cpp.obj
 .PHONY : warrior.obj
 
@@ -336,6 +456,18 @@ help:
 	@echo "... dice.obj"
 	@echo "... dice.i"
 	@echo "... dice.s"
+	@echo "... encounter.obj"
+	@echo "... encounter.i"
+	@echo "... encounter.s"
+	@echo "... enemy.obj"
+	@echo "... enemy.i"
+	@echo "... enemy.s"
+	@echo "... fight.obj"
+	@echo "... fight.i"
+	@echo "... fight.s"
+	@echo "... gnoll.obj"
+	@echo "... gnoll.i"
+	@echo "... gnoll.s"
 	@echo "... mage.obj"
 	@echo "... mage.i"
 	@echo "... mage.s"
@@ -351,6 +483,9 @@ help:
 	@echo "... shaman.obj"
 	@echo "... shaman.i"
 	@echo "... shaman.s"
+	@echo "... startStory.obj"
+	@echo "... startStory.i"
+	@echo "... startStory.s"
 	@echo "... warrior.obj"
 	@echo "... warrior.i"
 	@echo "... warrior.s"

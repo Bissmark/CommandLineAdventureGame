@@ -10,11 +10,16 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/character.cpp" "CMakeFiles/AdventureGame.dir/character.cpp.obj" "gcc" "CMakeFiles/AdventureGame.dir/character.cpp.obj.d"
   "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/dice.cpp" "CMakeFiles/AdventureGame.dir/dice.cpp.obj" "gcc" "CMakeFiles/AdventureGame.dir/dice.cpp.obj.d"
+  "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/encounter.cpp" "CMakeFiles/AdventureGame.dir/encounter.cpp.obj" "gcc" "CMakeFiles/AdventureGame.dir/encounter.cpp.obj.d"
+  "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/enemy.cpp" "CMakeFiles/AdventureGame.dir/enemy.cpp.obj" "gcc" "CMakeFiles/AdventureGame.dir/enemy.cpp.obj.d"
+  "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/fight.cpp" "CMakeFiles/AdventureGame.dir/fight.cpp.obj" "gcc" "CMakeFiles/AdventureGame.dir/fight.cpp.obj.d"
+  "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/gnoll.cpp" "CMakeFiles/AdventureGame.dir/gnoll.cpp.obj" "gcc" "CMakeFiles/AdventureGame.dir/gnoll.cpp.obj.d"
   "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/mage.cpp" "CMakeFiles/AdventureGame.dir/mage.cpp.obj" "gcc" "CMakeFiles/AdventureGame.dir/mage.cpp.obj.d"
   "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/main.cpp" "CMakeFiles/AdventureGame.dir/main.cpp.obj" "gcc" "CMakeFiles/AdventureGame.dir/main.cpp.obj.d"
   "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/player.cpp" "CMakeFiles/AdventureGame.dir/player.cpp.obj" "gcc" "CMakeFiles/AdventureGame.dir/player.cpp.obj.d"
   "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/rogue.cpp" "CMakeFiles/AdventureGame.dir/rogue.cpp.obj" "gcc" "CMakeFiles/AdventureGame.dir/rogue.cpp.obj.d"
   "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/shaman.cpp" "CMakeFiles/AdventureGame.dir/shaman.cpp.obj" "gcc" "CMakeFiles/AdventureGame.dir/shaman.cpp.obj.d"
+  "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/startStory.cpp" "CMakeFiles/AdventureGame.dir/startStory.cpp.obj" "gcc" "CMakeFiles/AdventureGame.dir/startStory.cpp.obj.d"
   "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/warrior.cpp" "CMakeFiles/AdventureGame.dir/warrior.cpp.obj" "gcc" "CMakeFiles/AdventureGame.dir/warrior.cpp.obj.d"
   )
 

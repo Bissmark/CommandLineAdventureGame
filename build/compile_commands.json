@@ -46,5 +46,35 @@
   "command": "C:/msys64/ucrt64/bin/g++.exe   -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/shaman.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/shaman.cpp",
   "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/shaman.cpp",
   "output": "CMakeFiles/AdventureGame.dir/shaman.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
+  "command": "C:/msys64/ucrt64/bin/g++.exe   -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/enemy.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/enemy.cpp",
+  "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/enemy.cpp",
+  "output": "CMakeFiles/AdventureGame.dir/enemy.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
+  "command": "C:/msys64/ucrt64/bin/g++.exe   -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/gnoll.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/gnoll.cpp",
+  "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/gnoll.cpp",
+  "output": "CMakeFiles/AdventureGame.dir/gnoll.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
+  "command": "C:/msys64/ucrt64/bin/g++.exe   -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/startStory.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/startStory.cpp",
+  "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/startStory.cpp",
+  "output": "CMakeFiles/AdventureGame.dir/startStory.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
+  "command": "C:/msys64/ucrt64/bin/g++.exe   -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/encounter.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/encounter.cpp",
+  "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/encounter.cpp",
+  "output": "CMakeFiles/AdventureGame.dir/encounter.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
+  "command": "C:/msys64/ucrt64/bin/g++.exe   -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/fight.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/fight.cpp",
+  "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/fight.cpp",
+  "output": "CMakeFiles/AdventureGame.dir/fight.cpp.obj"
 }
 ]

@@ -17,4 +17,9 @@ add_executable(${PROJECT_NAME}
     mage.cpp
     rogue.cpp
     shaman.cpp
+    enemy.cpp
+    gnoll.cpp
+    startStory.cpp
+    encounter.cpp
+    fight.cpp
 )

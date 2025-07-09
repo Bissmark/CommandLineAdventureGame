@@ -5,12 +5,14 @@
 #include "rogue.h"
 #include "shaman.h"
 #include "dice.h"
+#include "startStory.h"
 using namespace std;
 
 int main() 
 {
     Player* player = nullptr;
     Dice dice;
+    StartStory startStory;
 
     string charName;
     string classSelection;
@@ -36,6 +38,8 @@ int main()
 
     cout << "You have selected a " << classSelection << endl;
     cout << "Your stats at your current level of " << player->getLevel() << " is " << player->getStrength() << " Strength, " << player->getIntelligence() << " Intelligence, and " << player->getDexterity() << " Dexterity" << endl;
+
+    startStory.ChapterOne();
 
     // dice.Roll();
 
