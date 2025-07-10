@@ -39,50 +39,71 @@ void Fight::FightMenu() {
 }
 
 void Fight::FightScreen() {
-    cout << "You attacked the " << enemy->getName() << endl;
-    PlayerTurn();
-
-    if (enemy->isAlive()) {
-        EnemyTurn();
-    } else {
-        cout << "You have defeated " << enemy->getName() << endl;
-        cout << "You have received " << enemy->getExperience() << " from winning the battle" << endl;
+    cout << "\n=== BATTLE BEGINS! ===" << endl;
+    
+    // Main combat loop - continue while both are alive
+    while (enemy->isAlive() && player->isAlive()) {
+        
+        // Player's turn
+        if (whosTurn == 1) {
+            cout << "\n--- Your Turn ---" << endl;
+            PlayerTurn();
+            
+            // Check if enemy died from player attack
+            if (!enemy->isAlive()) {
+                cout << "\nYou have defeated " << enemy->getName() << "!" << endl;
+                cout << "You have received " << enemy->getExperience() << " XP from winning the battle!" << endl;
+                break;  // Exit combat loop
+            }
+        }
+        
+        // Enemy's turn (if still alive)
+        if (whosTurn == 2 && enemy->isAlive()) {
+            cout << "\n--- Enemy Turn ---" << endl;
+            EnemyTurn();
+            
+            // Check if player died from enemy attack
+            if (!player->isAlive()) {
+                cout << "\nYou have been defeated by " << enemy->getName() << "!" << endl;
+                cout << "Game Over!" << endl;
+                break;  // Exit combat loop
+            }
+        }
     }
+    
+    cout << "\n=== BATTLE ENDED ===" << endl;
+
+    FightMenu();
 }
 
 void Fight::Run() {
-    cout << "Your ran" << endl;
+    cout << "You ran" << endl;
 }
 
 void Fight::PlayerTurn() {
-    
-    if (whosTurn == 1) {
-        int damage = player->getStrength() - enemy->getStrength();
-    
-        if (damage < 1) {
-            damage = 1;
-        }
+    int damage = player->getStrength() - enemy->getStrength();
 
-        enemy->takeDamage(damage);
-        cout << "You dealt " << damage << " damage" << endl;
-        cout << enemy->getName() << " has " << enemy->getHP() << " hp left" << endl;
-
-        whosTurn = 2;
+    if (damage < 1) {
+        damage = 1;
     }
+
+    enemy->takeDamage(damage);
+    cout << "You dealt " << damage << " damage to " << enemy->getName() << endl;
+    cout << enemy->getName() << " has " << enemy->getHP() << " hp left" << endl;
+
+    whosTurn = 2;
 }
 
 void Fight::EnemyTurn() {
-    if (whosTurn == 2) {
-        int damage = player->getStrength() - enemy->getStrength();
+    int damage = player->getStrength() - enemy->getStrength();
 
-        if (damage < 1) {
-            damage = 1;
-        }
-
-        player->takeDamage(damage);
-        cout << "The " << enemy->getName() << " has dealt " << damage << " to you" << endl;
-        cout << "You have " << player->getHP() << " hp left" << endl;
-
-        whosTurn = 1;
+    if (damage < 1) {
+        damage = 1;
     }
+
+    player->takeDamage(damage);
+    cout << "The " << enemy->getName() << " has dealt " << damage << " to you" << endl;
+    cout << "You have " << player->getHP() << " hp left" << endl;
+
+    whosTurn = 1;
 }
