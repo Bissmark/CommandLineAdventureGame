@@ -15,6 +15,11 @@ void Fight::FightMenu() {
     string fightDecision;
     bool validInput = false;
 
+    if (enemy->getHP() == 0) {
+        delete enemy;
+        enemy = Enemy::CreateEnemy("Gnoll");
+    }
+
     do {
         cout << "You are currently fighing a " << enemy->getName() << endl;
         cout << "It is level " << enemy->getLevel() << endl;
@@ -49,24 +54,27 @@ void Fight::FightScreen() {
             cout << "\n--- Your Turn ---" << endl;
             PlayerTurn();
             
-            // Check if enemy died from player attack
             if (!enemy->isAlive()) {
                 cout << "\nYou have defeated " << enemy->getName() << "!" << endl;
-                cout << "You have received " << enemy->getExperience() << " XP from winning the battle!" << endl;
-                break;  // Exit combat loop
+                cout << "You have received " << enemy->getExperience() << " XP from winning the battle!" << " and " << enemy->getGold() << " gold" << endl;
+                player->currentPlayerExperience += enemy->getExperience();
+                cout << player->currentPlayerExperience << " xp" << endl;
+                player->LevelUp();
+                cout << "You are level: " << player->getLevel() << endl;
+                player->currentGold += enemy->getGold();
+                cout << "You have " << player->getPlayerGold() << " gold" << endl;
+                break;
             }
         }
         
-        // Enemy's turn (if still alive)
         if (whosTurn == 2 && enemy->isAlive()) {
             cout << "\n--- Enemy Turn ---" << endl;
             EnemyTurn();
             
-            // Check if player died from enemy attack
             if (!player->isAlive()) {
                 cout << "\nYou have been defeated by " << enemy->getName() << "!" << endl;
                 cout << "Game Over!" << endl;
-                break;  // Exit combat loop
+                break;
             }
         }
     }

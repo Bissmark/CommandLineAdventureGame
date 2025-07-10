@@ -13,22 +13,27 @@ class Character
         int getIntelligence() const { return intelligence; }
         int getDexterity() const { return dexterity; }
         int getHP() const { return currentHP; }
-        int getExperience() const { return currentExperience; }
+        int getExperience() const { return experienceEnemy; }
+        int getGold() const { return gold; }
+        int getPlayerGold() const { return currentGold; }
 
         void takeDamage(int damage);
         void heal(int amount);
         bool isAlive() const;
+        int currentPlayerExperience;
+        int currentGold;
 
     protected:
         string name;
         int strength;
         int intelligence;
         int dexterity;
+        int gold;
         int level;
         int maxHP;
         int currentHP;
         int maxMana;
         int currentMana;
-        int currentGold;
-        int currentExperience;
+        int experienceEnemy;
+        int maxExperienceForLevel;
 };
