@@ -1,80 +1,128 @@
 [
 {
   "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
-  "command": "C:/msys64/ucrt64/bin/g++.exe   -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/main.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/main.cpp",
+  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/AdventureGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/main.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/main.cpp",
   "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/main.cpp",
   "output": "CMakeFiles/AdventureGame.dir/main.cpp.obj"
 },
 {
   "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
-  "command": "C:/msys64/ucrt64/bin/g++.exe   -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/player.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/player.cpp",
+  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/AdventureGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/player.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/player.cpp",
   "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/player.cpp",
   "output": "CMakeFiles/AdventureGame.dir/player.cpp.obj"
 },
 {
   "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
-  "command": "C:/msys64/ucrt64/bin/g++.exe   -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/dice.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/dice.cpp",
+  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/AdventureGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/dice.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/dice.cpp",
   "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/dice.cpp",
   "output": "CMakeFiles/AdventureGame.dir/dice.cpp.obj"
 },
 {
   "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
-  "command": "C:/msys64/ucrt64/bin/g++.exe   -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/character.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/character.cpp",
+  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/AdventureGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/character.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/character.cpp",
   "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/character.cpp",
   "output": "CMakeFiles/AdventureGame.dir/character.cpp.obj"
 },
 {
   "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
-  "command": "C:/msys64/ucrt64/bin/g++.exe   -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/warrior.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/warrior.cpp",
+  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/AdventureGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/warrior.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/warrior.cpp",
   "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/warrior.cpp",
   "output": "CMakeFiles/AdventureGame.dir/warrior.cpp.obj"
 },
 {
   "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
-  "command": "C:/msys64/ucrt64/bin/g++.exe   -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/mage.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/mage.cpp",
+  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/AdventureGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/mage.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/mage.cpp",
   "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/mage.cpp",
   "output": "CMakeFiles/AdventureGame.dir/mage.cpp.obj"
 },
 {
   "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
-  "command": "C:/msys64/ucrt64/bin/g++.exe   -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/rogue.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/rogue.cpp",
+  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/AdventureGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/rogue.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/rogue.cpp",
   "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/rogue.cpp",
   "output": "CMakeFiles/AdventureGame.dir/rogue.cpp.obj"
 },
 {
   "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
-  "command": "C:/msys64/ucrt64/bin/g++.exe   -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/shaman.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/shaman.cpp",
+  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/AdventureGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/shaman.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/shaman.cpp",
   "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/shaman.cpp",
   "output": "CMakeFiles/AdventureGame.dir/shaman.cpp.obj"
 },
 {
   "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
-  "command": "C:/msys64/ucrt64/bin/g++.exe   -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/enemy.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/enemy.cpp",
+  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/AdventureGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/enemy.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/enemy.cpp",
   "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/enemy.cpp",
   "output": "CMakeFiles/AdventureGame.dir/enemy.cpp.obj"
 },
 {
   "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
-  "command": "C:/msys64/ucrt64/bin/g++.exe   -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/gnoll.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/gnoll.cpp",
+  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/AdventureGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/gnoll.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/gnoll.cpp",
   "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/gnoll.cpp",
   "output": "CMakeFiles/AdventureGame.dir/gnoll.cpp.obj"
 },
 {
   "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
-  "command": "C:/msys64/ucrt64/bin/g++.exe   -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/startStory.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/startStory.cpp",
+  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/AdventureGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/startStory.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/startStory.cpp",
   "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/startStory.cpp",
   "output": "CMakeFiles/AdventureGame.dir/startStory.cpp.obj"
 },
 {
   "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
-  "command": "C:/msys64/ucrt64/bin/g++.exe   -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/encounter.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/encounter.cpp",
+  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/AdventureGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/encounter.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/encounter.cpp",
   "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/encounter.cpp",
   "output": "CMakeFiles/AdventureGame.dir/encounter.cpp.obj"
 },
 {
   "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
-  "command": "C:/msys64/ucrt64/bin/g++.exe   -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/fight.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/fight.cpp",
+  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/AdventureGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/fight.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/fight.cpp",
   "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/fight.cpp",
   "output": "CMakeFiles/AdventureGame.dir/fight.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
+  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/AdventureGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/displayWindow.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/displayWindow.cpp",
+  "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/displayWindow.cpp",
+  "output": "CMakeFiles/AdventureGame.dir/displayWindow.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
+  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/AdventureGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/imgui/imgui.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui.cpp",
+  "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui.cpp",
+  "output": "CMakeFiles/AdventureGame.dir/imgui/imgui.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
+  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/AdventureGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/imgui/imgui_draw.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_draw.cpp",
+  "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_draw.cpp",
+  "output": "CMakeFiles/AdventureGame.dir/imgui/imgui_draw.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
+  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/AdventureGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/imgui/imgui_impl_sdl3.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_impl_sdl3.cpp",
+  "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_impl_sdl3.cpp",
+  "output": "CMakeFiles/AdventureGame.dir/imgui/imgui_impl_sdl3.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
+  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/AdventureGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/imgui/imgui_impl_sdlrenderer3.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_impl_sdlrenderer3.cpp",
+  "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_impl_sdlrenderer3.cpp",
+  "output": "CMakeFiles/AdventureGame.dir/imgui/imgui_impl_sdlrenderer3.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
+  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/AdventureGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/imgui/imgui_tables.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_tables.cpp",
+  "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_tables.cpp",
+  "output": "CMakeFiles/AdventureGame.dir/imgui/imgui_tables.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
+  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/AdventureGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/imgui/imgui_widgets.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_widgets.cpp",
+  "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_widgets.cpp",
+  "output": "CMakeFiles/AdventureGame.dir/imgui/imgui_widgets.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
+  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/AdventureGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/imgui/imgui_demo.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_demo.cpp",
+  "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_demo.cpp",
+  "output": "CMakeFiles/AdventureGame.dir/imgui/imgui_demo.cpp.obj"
 }
 ]

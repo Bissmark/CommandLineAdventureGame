@@ -20,6 +20,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.30/Modules/Compiler/GNU-C.cmake"
   "C:/Program Files/CMake/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake"
   "C:/Program Files/CMake/share/cmake-3.30/Modules/Compiler/GNU.cmake"
+  "C:/Program Files/CMake/share/cmake-3.30/Modules/FeatureSummary.cmake"
   "C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake"
   "C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake"
   "C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
@@ -34,6 +35,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.30.0-rc1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.30.0-rc1/CMakeRCCompiler.cmake"
   "CMakeFiles/3.30.0-rc1/CMakeSystem.cmake"
+  "C:/vcpkg/installed/x64-windows/share/sdl3/SDL3Config.cmake"
+  "C:/vcpkg/installed/x64-windows/share/sdl3/SDL3ConfigVersion.cmake"
+  "C:/vcpkg/installed/x64-windows/share/sdl3/SDL3headersTargets.cmake"
+  "C:/vcpkg/installed/x64-windows/share/sdl3/SDL3sharedTargets-debug.cmake"
+  "C:/vcpkg/installed/x64-windows/share/sdl3/SDL3sharedTargets-release.cmake"
+  "C:/vcpkg/installed/x64-windows/share/sdl3/SDL3sharedTargets.cmake"
   )
 
 # The corresponding makefile is:

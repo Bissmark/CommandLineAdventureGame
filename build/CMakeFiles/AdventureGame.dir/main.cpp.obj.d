@@ -158,4 +158,76 @@ CMakeFiles/AdventureGame.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_tempbuf.h \
  C:/msys64/ucrt64/include/c++/14.2.0/pstl/glue_algorithm_defs.h \
  C:/msys64/ucrt64/include/c++/14.2.0/pstl/execution_defs.h \
- C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/enemy.h
+ C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/enemy.h \
+ C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/displayWindow.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_stdinc.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_platform_defines.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
+ C:/msys64/ucrt64/include/stdarg.h \
+ C:/msys64/ucrt64/include/_mingw_stdarg.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
+ C:/msys64/ucrt64/include/stdint.h C:/msys64/ucrt64/include/string.h \
+ C:/msys64/ucrt64/include/sec_api/string_s.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_begin_code.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_close_code.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_assert.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_asyncio.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_atomic.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_audio.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_endian.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_error.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_mutex.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_thread.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_properties.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_iostream.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_bits.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_blendmode.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_camera.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_pixels.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_surface.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_rect.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_clipboard.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_cpuinfo.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_dialog.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_video.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_events.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_gamepad.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_guid.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_joystick.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_power.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_sensor.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_keyboard.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_keycode.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_scancode.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_mouse.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_pen.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_touch.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_filesystem.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_gpu.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_haptic.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_hidapi.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_hints.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_init.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_loadso.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_locale.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_log.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_messagebox.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_metal.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_misc.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_platform.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_process.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_render.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_storage.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_system.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_time.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_timer.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_tray.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_version.h \
+ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_oldnames.h \
+ C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui.h \
+ C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imconfig.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/float.h \
+ C:/msys64/ucrt64/include/float.h C:/msys64/ucrt64/include/assert.h \
+ C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_impl_sdl3.h \
+ C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_impl_sdlrenderer3.h

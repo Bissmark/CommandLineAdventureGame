@@ -60,7 +60,6 @@ void Fight::FightScreen() {
                 player->currentPlayerExperience += enemy->getExperience();
                 cout << player->currentPlayerExperience << " xp" << endl;
                 player->LevelUp();
-                cout << "You are level: " << player->getLevel() << endl;
                 player->currentGold += enemy->getGold();
                 cout << "You have " << player->getPlayerGold() << " gold" << endl;
                 break;
