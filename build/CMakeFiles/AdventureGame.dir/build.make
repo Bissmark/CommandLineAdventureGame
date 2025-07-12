@@ -264,56 +264,71 @@ CMakeFiles/AdventureGame.dir/fight.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AdventureGame.dir/fight.cpp.s"
 	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/fight.cpp -o CMakeFiles/AdventureGame.dir/fight.cpp.s
 
-CMakeFiles/AdventureGame.dir/displayWindow.cpp.obj: CMakeFiles/AdventureGame.dir/flags.make
-CMakeFiles/AdventureGame.dir/displayWindow.cpp.obj: CMakeFiles/AdventureGame.dir/includes_CXX.rsp
-CMakeFiles/AdventureGame.dir/displayWindow.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/displayWindow.cpp
-CMakeFiles/AdventureGame.dir/displayWindow.cpp.obj: CMakeFiles/AdventureGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/AdventureGame.dir/displayWindow.cpp.obj"
-	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AdventureGame.dir/displayWindow.cpp.obj -MF CMakeFiles/AdventureGame.dir/displayWindow.cpp.obj.d -o CMakeFiles/AdventureGame.dir/displayWindow.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/displayWindow.cpp
+CMakeFiles/AdventureGame.dir/UIScreens/displayWindow.cpp.obj: CMakeFiles/AdventureGame.dir/flags.make
+CMakeFiles/AdventureGame.dir/UIScreens/displayWindow.cpp.obj: CMakeFiles/AdventureGame.dir/includes_CXX.rsp
+CMakeFiles/AdventureGame.dir/UIScreens/displayWindow.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/displayWindow.cpp
+CMakeFiles/AdventureGame.dir/UIScreens/displayWindow.cpp.obj: CMakeFiles/AdventureGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/AdventureGame.dir/UIScreens/displayWindow.cpp.obj"
+	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AdventureGame.dir/UIScreens/displayWindow.cpp.obj -MF CMakeFiles/AdventureGame.dir/UIScreens/displayWindow.cpp.obj.d -o CMakeFiles/AdventureGame.dir/UIScreens/displayWindow.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/displayWindow.cpp
 
-CMakeFiles/AdventureGame.dir/displayWindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AdventureGame.dir/displayWindow.cpp.i"
-	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/displayWindow.cpp > CMakeFiles/AdventureGame.dir/displayWindow.cpp.i
+CMakeFiles/AdventureGame.dir/UIScreens/displayWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AdventureGame.dir/UIScreens/displayWindow.cpp.i"
+	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/displayWindow.cpp > CMakeFiles/AdventureGame.dir/UIScreens/displayWindow.cpp.i
 
-CMakeFiles/AdventureGame.dir/displayWindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AdventureGame.dir/displayWindow.cpp.s"
-	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/displayWindow.cpp -o CMakeFiles/AdventureGame.dir/displayWindow.cpp.s
+CMakeFiles/AdventureGame.dir/UIScreens/displayWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AdventureGame.dir/UIScreens/displayWindow.cpp.s"
+	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/displayWindow.cpp -o CMakeFiles/AdventureGame.dir/UIScreens/displayWindow.cpp.s
 
-CMakeFiles/AdventureGame.dir/characterCreationScreen.cpp.obj: CMakeFiles/AdventureGame.dir/flags.make
-CMakeFiles/AdventureGame.dir/characterCreationScreen.cpp.obj: CMakeFiles/AdventureGame.dir/includes_CXX.rsp
-CMakeFiles/AdventureGame.dir/characterCreationScreen.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/characterCreationScreen.cpp
-CMakeFiles/AdventureGame.dir/characterCreationScreen.cpp.obj: CMakeFiles/AdventureGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/AdventureGame.dir/characterCreationScreen.cpp.obj"
-	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AdventureGame.dir/characterCreationScreen.cpp.obj -MF CMakeFiles/AdventureGame.dir/characterCreationScreen.cpp.obj.d -o CMakeFiles/AdventureGame.dir/characterCreationScreen.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/characterCreationScreen.cpp
+CMakeFiles/AdventureGame.dir/UIScreens/characterCreationScreen.cpp.obj: CMakeFiles/AdventureGame.dir/flags.make
+CMakeFiles/AdventureGame.dir/UIScreens/characterCreationScreen.cpp.obj: CMakeFiles/AdventureGame.dir/includes_CXX.rsp
+CMakeFiles/AdventureGame.dir/UIScreens/characterCreationScreen.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/characterCreationScreen.cpp
+CMakeFiles/AdventureGame.dir/UIScreens/characterCreationScreen.cpp.obj: CMakeFiles/AdventureGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/AdventureGame.dir/UIScreens/characterCreationScreen.cpp.obj"
+	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AdventureGame.dir/UIScreens/characterCreationScreen.cpp.obj -MF CMakeFiles/AdventureGame.dir/UIScreens/characterCreationScreen.cpp.obj.d -o CMakeFiles/AdventureGame.dir/UIScreens/characterCreationScreen.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/characterCreationScreen.cpp
 
-CMakeFiles/AdventureGame.dir/characterCreationScreen.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AdventureGame.dir/characterCreationScreen.cpp.i"
-	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/characterCreationScreen.cpp > CMakeFiles/AdventureGame.dir/characterCreationScreen.cpp.i
+CMakeFiles/AdventureGame.dir/UIScreens/characterCreationScreen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AdventureGame.dir/UIScreens/characterCreationScreen.cpp.i"
+	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/characterCreationScreen.cpp > CMakeFiles/AdventureGame.dir/UIScreens/characterCreationScreen.cpp.i
 
-CMakeFiles/AdventureGame.dir/characterCreationScreen.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AdventureGame.dir/characterCreationScreen.cpp.s"
-	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/characterCreationScreen.cpp -o CMakeFiles/AdventureGame.dir/characterCreationScreen.cpp.s
+CMakeFiles/AdventureGame.dir/UIScreens/characterCreationScreen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AdventureGame.dir/UIScreens/characterCreationScreen.cpp.s"
+	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/characterCreationScreen.cpp -o CMakeFiles/AdventureGame.dir/UIScreens/characterCreationScreen.cpp.s
 
-CMakeFiles/AdventureGame.dir/combatScreen.cpp.obj: CMakeFiles/AdventureGame.dir/flags.make
-CMakeFiles/AdventureGame.dir/combatScreen.cpp.obj: CMakeFiles/AdventureGame.dir/includes_CXX.rsp
-CMakeFiles/AdventureGame.dir/combatScreen.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/combatScreen.cpp
-CMakeFiles/AdventureGame.dir/combatScreen.cpp.obj: CMakeFiles/AdventureGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/AdventureGame.dir/combatScreen.cpp.obj"
-	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AdventureGame.dir/combatScreen.cpp.obj -MF CMakeFiles/AdventureGame.dir/combatScreen.cpp.obj.d -o CMakeFiles/AdventureGame.dir/combatScreen.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/combatScreen.cpp
+CMakeFiles/AdventureGame.dir/UIScreens/combatScreen.cpp.obj: CMakeFiles/AdventureGame.dir/flags.make
+CMakeFiles/AdventureGame.dir/UIScreens/combatScreen.cpp.obj: CMakeFiles/AdventureGame.dir/includes_CXX.rsp
+CMakeFiles/AdventureGame.dir/UIScreens/combatScreen.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/combatScreen.cpp
+CMakeFiles/AdventureGame.dir/UIScreens/combatScreen.cpp.obj: CMakeFiles/AdventureGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/AdventureGame.dir/UIScreens/combatScreen.cpp.obj"
+	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AdventureGame.dir/UIScreens/combatScreen.cpp.obj -MF CMakeFiles/AdventureGame.dir/UIScreens/combatScreen.cpp.obj.d -o CMakeFiles/AdventureGame.dir/UIScreens/combatScreen.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/combatScreen.cpp
 
-CMakeFiles/AdventureGame.dir/combatScreen.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AdventureGame.dir/combatScreen.cpp.i"
-	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/combatScreen.cpp > CMakeFiles/AdventureGame.dir/combatScreen.cpp.i
+CMakeFiles/AdventureGame.dir/UIScreens/combatScreen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AdventureGame.dir/UIScreens/combatScreen.cpp.i"
+	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/combatScreen.cpp > CMakeFiles/AdventureGame.dir/UIScreens/combatScreen.cpp.i
 
-CMakeFiles/AdventureGame.dir/combatScreen.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AdventureGame.dir/combatScreen.cpp.s"
-	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/combatScreen.cpp -o CMakeFiles/AdventureGame.dir/combatScreen.cpp.s
+CMakeFiles/AdventureGame.dir/UIScreens/combatScreen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AdventureGame.dir/UIScreens/combatScreen.cpp.s"
+	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/combatScreen.cpp -o CMakeFiles/AdventureGame.dir/UIScreens/combatScreen.cpp.s
+
+CMakeFiles/AdventureGame.dir/UIScreens/menuScreen.cpp.obj: CMakeFiles/AdventureGame.dir/flags.make
+CMakeFiles/AdventureGame.dir/UIScreens/menuScreen.cpp.obj: CMakeFiles/AdventureGame.dir/includes_CXX.rsp
+CMakeFiles/AdventureGame.dir/UIScreens/menuScreen.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/menuScreen.cpp
+CMakeFiles/AdventureGame.dir/UIScreens/menuScreen.cpp.obj: CMakeFiles/AdventureGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/AdventureGame.dir/UIScreens/menuScreen.cpp.obj"
+	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AdventureGame.dir/UIScreens/menuScreen.cpp.obj -MF CMakeFiles/AdventureGame.dir/UIScreens/menuScreen.cpp.obj.d -o CMakeFiles/AdventureGame.dir/UIScreens/menuScreen.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/menuScreen.cpp
+
+CMakeFiles/AdventureGame.dir/UIScreens/menuScreen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AdventureGame.dir/UIScreens/menuScreen.cpp.i"
+	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/menuScreen.cpp > CMakeFiles/AdventureGame.dir/UIScreens/menuScreen.cpp.i
+
+CMakeFiles/AdventureGame.dir/UIScreens/menuScreen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AdventureGame.dir/UIScreens/menuScreen.cpp.s"
+	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/menuScreen.cpp -o CMakeFiles/AdventureGame.dir/UIScreens/menuScreen.cpp.s
 
 CMakeFiles/AdventureGame.dir/imgui/imgui.cpp.obj: CMakeFiles/AdventureGame.dir/flags.make
 CMakeFiles/AdventureGame.dir/imgui/imgui.cpp.obj: CMakeFiles/AdventureGame.dir/includes_CXX.rsp
 CMakeFiles/AdventureGame.dir/imgui/imgui.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui.cpp
 CMakeFiles/AdventureGame.dir/imgui/imgui.cpp.obj: CMakeFiles/AdventureGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/AdventureGame.dir/imgui/imgui.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/AdventureGame.dir/imgui/imgui.cpp.obj"
 	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AdventureGame.dir/imgui/imgui.cpp.obj -MF CMakeFiles/AdventureGame.dir/imgui/imgui.cpp.obj.d -o CMakeFiles/AdventureGame.dir/imgui/imgui.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui.cpp
 
 CMakeFiles/AdventureGame.dir/imgui/imgui.cpp.i: cmake_force
@@ -328,7 +343,7 @@ CMakeFiles/AdventureGame.dir/imgui/imgui_draw.cpp.obj: CMakeFiles/AdventureGame.
 CMakeFiles/AdventureGame.dir/imgui/imgui_draw.cpp.obj: CMakeFiles/AdventureGame.dir/includes_CXX.rsp
 CMakeFiles/AdventureGame.dir/imgui/imgui_draw.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_draw.cpp
 CMakeFiles/AdventureGame.dir/imgui/imgui_draw.cpp.obj: CMakeFiles/AdventureGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/AdventureGame.dir/imgui/imgui_draw.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/AdventureGame.dir/imgui/imgui_draw.cpp.obj"
 	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AdventureGame.dir/imgui/imgui_draw.cpp.obj -MF CMakeFiles/AdventureGame.dir/imgui/imgui_draw.cpp.obj.d -o CMakeFiles/AdventureGame.dir/imgui/imgui_draw.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_draw.cpp
 
 CMakeFiles/AdventureGame.dir/imgui/imgui_draw.cpp.i: cmake_force
@@ -343,7 +358,7 @@ CMakeFiles/AdventureGame.dir/imgui/imgui_impl_sdl3.cpp.obj: CMakeFiles/Adventure
 CMakeFiles/AdventureGame.dir/imgui/imgui_impl_sdl3.cpp.obj: CMakeFiles/AdventureGame.dir/includes_CXX.rsp
 CMakeFiles/AdventureGame.dir/imgui/imgui_impl_sdl3.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_impl_sdl3.cpp
 CMakeFiles/AdventureGame.dir/imgui/imgui_impl_sdl3.cpp.obj: CMakeFiles/AdventureGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/AdventureGame.dir/imgui/imgui_impl_sdl3.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/AdventureGame.dir/imgui/imgui_impl_sdl3.cpp.obj"
 	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AdventureGame.dir/imgui/imgui_impl_sdl3.cpp.obj -MF CMakeFiles/AdventureGame.dir/imgui/imgui_impl_sdl3.cpp.obj.d -o CMakeFiles/AdventureGame.dir/imgui/imgui_impl_sdl3.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_impl_sdl3.cpp
 
 CMakeFiles/AdventureGame.dir/imgui/imgui_impl_sdl3.cpp.i: cmake_force
@@ -358,7 +373,7 @@ CMakeFiles/AdventureGame.dir/imgui/imgui_impl_sdlrenderer3.cpp.obj: CMakeFiles/A
 CMakeFiles/AdventureGame.dir/imgui/imgui_impl_sdlrenderer3.cpp.obj: CMakeFiles/AdventureGame.dir/includes_CXX.rsp
 CMakeFiles/AdventureGame.dir/imgui/imgui_impl_sdlrenderer3.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_impl_sdlrenderer3.cpp
 CMakeFiles/AdventureGame.dir/imgui/imgui_impl_sdlrenderer3.cpp.obj: CMakeFiles/AdventureGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/AdventureGame.dir/imgui/imgui_impl_sdlrenderer3.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/AdventureGame.dir/imgui/imgui_impl_sdlrenderer3.cpp.obj"
 	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AdventureGame.dir/imgui/imgui_impl_sdlrenderer3.cpp.obj -MF CMakeFiles/AdventureGame.dir/imgui/imgui_impl_sdlrenderer3.cpp.obj.d -o CMakeFiles/AdventureGame.dir/imgui/imgui_impl_sdlrenderer3.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_impl_sdlrenderer3.cpp
 
 CMakeFiles/AdventureGame.dir/imgui/imgui_impl_sdlrenderer3.cpp.i: cmake_force
@@ -373,7 +388,7 @@ CMakeFiles/AdventureGame.dir/imgui/imgui_tables.cpp.obj: CMakeFiles/AdventureGam
 CMakeFiles/AdventureGame.dir/imgui/imgui_tables.cpp.obj: CMakeFiles/AdventureGame.dir/includes_CXX.rsp
 CMakeFiles/AdventureGame.dir/imgui/imgui_tables.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_tables.cpp
 CMakeFiles/AdventureGame.dir/imgui/imgui_tables.cpp.obj: CMakeFiles/AdventureGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/AdventureGame.dir/imgui/imgui_tables.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/AdventureGame.dir/imgui/imgui_tables.cpp.obj"
 	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AdventureGame.dir/imgui/imgui_tables.cpp.obj -MF CMakeFiles/AdventureGame.dir/imgui/imgui_tables.cpp.obj.d -o CMakeFiles/AdventureGame.dir/imgui/imgui_tables.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_tables.cpp
 
 CMakeFiles/AdventureGame.dir/imgui/imgui_tables.cpp.i: cmake_force
@@ -388,7 +403,7 @@ CMakeFiles/AdventureGame.dir/imgui/imgui_widgets.cpp.obj: CMakeFiles/AdventureGa
 CMakeFiles/AdventureGame.dir/imgui/imgui_widgets.cpp.obj: CMakeFiles/AdventureGame.dir/includes_CXX.rsp
 CMakeFiles/AdventureGame.dir/imgui/imgui_widgets.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_widgets.cpp
 CMakeFiles/AdventureGame.dir/imgui/imgui_widgets.cpp.obj: CMakeFiles/AdventureGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/AdventureGame.dir/imgui/imgui_widgets.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/AdventureGame.dir/imgui/imgui_widgets.cpp.obj"
 	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AdventureGame.dir/imgui/imgui_widgets.cpp.obj -MF CMakeFiles/AdventureGame.dir/imgui/imgui_widgets.cpp.obj.d -o CMakeFiles/AdventureGame.dir/imgui/imgui_widgets.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_widgets.cpp
 
 CMakeFiles/AdventureGame.dir/imgui/imgui_widgets.cpp.i: cmake_force
@@ -403,7 +418,7 @@ CMakeFiles/AdventureGame.dir/imgui/imgui_demo.cpp.obj: CMakeFiles/AdventureGame.
 CMakeFiles/AdventureGame.dir/imgui/imgui_demo.cpp.obj: CMakeFiles/AdventureGame.dir/includes_CXX.rsp
 CMakeFiles/AdventureGame.dir/imgui/imgui_demo.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_demo.cpp
 CMakeFiles/AdventureGame.dir/imgui/imgui_demo.cpp.obj: CMakeFiles/AdventureGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/AdventureGame.dir/imgui/imgui_demo.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/AdventureGame.dir/imgui/imgui_demo.cpp.obj"
 	C:/msys64/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AdventureGame.dir/imgui/imgui_demo.cpp.obj -MF CMakeFiles/AdventureGame.dir/imgui/imgui_demo.cpp.obj.d -o CMakeFiles/AdventureGame.dir/imgui/imgui_demo.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_demo.cpp
 
 CMakeFiles/AdventureGame.dir/imgui/imgui_demo.cpp.i: cmake_force
@@ -429,9 +444,10 @@ AdventureGame_OBJECTS = \
 "CMakeFiles/AdventureGame.dir/startStory.cpp.obj" \
 "CMakeFiles/AdventureGame.dir/encounter.cpp.obj" \
 "CMakeFiles/AdventureGame.dir/fight.cpp.obj" \
-"CMakeFiles/AdventureGame.dir/displayWindow.cpp.obj" \
-"CMakeFiles/AdventureGame.dir/characterCreationScreen.cpp.obj" \
-"CMakeFiles/AdventureGame.dir/combatScreen.cpp.obj" \
+"CMakeFiles/AdventureGame.dir/UIScreens/displayWindow.cpp.obj" \
+"CMakeFiles/AdventureGame.dir/UIScreens/characterCreationScreen.cpp.obj" \
+"CMakeFiles/AdventureGame.dir/UIScreens/combatScreen.cpp.obj" \
+"CMakeFiles/AdventureGame.dir/UIScreens/menuScreen.cpp.obj" \
 "CMakeFiles/AdventureGame.dir/imgui/imgui.cpp.obj" \
 "CMakeFiles/AdventureGame.dir/imgui/imgui_draw.cpp.obj" \
 "CMakeFiles/AdventureGame.dir/imgui/imgui_impl_sdl3.cpp.obj" \
@@ -456,9 +472,10 @@ AdventureGame.exe: CMakeFiles/AdventureGame.dir/gnoll.cpp.obj
 AdventureGame.exe: CMakeFiles/AdventureGame.dir/startStory.cpp.obj
 AdventureGame.exe: CMakeFiles/AdventureGame.dir/encounter.cpp.obj
 AdventureGame.exe: CMakeFiles/AdventureGame.dir/fight.cpp.obj
-AdventureGame.exe: CMakeFiles/AdventureGame.dir/displayWindow.cpp.obj
-AdventureGame.exe: CMakeFiles/AdventureGame.dir/characterCreationScreen.cpp.obj
-AdventureGame.exe: CMakeFiles/AdventureGame.dir/combatScreen.cpp.obj
+AdventureGame.exe: CMakeFiles/AdventureGame.dir/UIScreens/displayWindow.cpp.obj
+AdventureGame.exe: CMakeFiles/AdventureGame.dir/UIScreens/characterCreationScreen.cpp.obj
+AdventureGame.exe: CMakeFiles/AdventureGame.dir/UIScreens/combatScreen.cpp.obj
+AdventureGame.exe: CMakeFiles/AdventureGame.dir/UIScreens/menuScreen.cpp.obj
 AdventureGame.exe: CMakeFiles/AdventureGame.dir/imgui/imgui.cpp.obj
 AdventureGame.exe: CMakeFiles/AdventureGame.dir/imgui/imgui_draw.cpp.obj
 AdventureGame.exe: CMakeFiles/AdventureGame.dir/imgui/imgui_impl_sdl3.cpp.obj
@@ -470,7 +487,7 @@ AdventureGame.exe: CMakeFiles/AdventureGame.dir/build.make
 AdventureGame.exe: C:/vcpkg/installed/x64-windows/debug/lib/SDL3.lib
 AdventureGame.exe: CMakeFiles/AdventureGame.dir/linkLibs.rsp
 AdventureGame.exe: CMakeFiles/AdventureGame.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable AdventureGame.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable AdventureGame.exe"
 	"C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/AdventureGame.dir/objects.a
 	C:/msys64/ucrt64/bin/ar.exe qc CMakeFiles/AdventureGame.dir/objects.a @CMakeFiles/AdventureGame.dir/objects1.rsp
 	C:/msys64/ucrt64/bin/g++.exe -g -Wl,--whole-archive CMakeFiles/AdventureGame.dir/objects.a -Wl,--no-whole-archive -o AdventureGame.exe -Wl,--out-implib,libAdventureGame.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/AdventureGame.dir/linkLibs.rsp

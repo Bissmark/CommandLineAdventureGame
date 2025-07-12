@@ -79,21 +79,27 @@
 },
 {
   "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
-  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/AdventureGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/displayWindow.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/displayWindow.cpp",
-  "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/displayWindow.cpp",
-  "output": "CMakeFiles/AdventureGame.dir/displayWindow.cpp.obj"
+  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/AdventureGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/UIScreens/displayWindow.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/displayWindow.cpp",
+  "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/displayWindow.cpp",
+  "output": "CMakeFiles/AdventureGame.dir/UIScreens/displayWindow.cpp.obj"
 },
 {
   "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
-  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/AdventureGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/characterCreationScreen.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/characterCreationScreen.cpp",
-  "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/characterCreationScreen.cpp",
-  "output": "CMakeFiles/AdventureGame.dir/characterCreationScreen.cpp.obj"
+  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/AdventureGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/UIScreens/characterCreationScreen.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/characterCreationScreen.cpp",
+  "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/characterCreationScreen.cpp",
+  "output": "CMakeFiles/AdventureGame.dir/UIScreens/characterCreationScreen.cpp.obj"
 },
 {
   "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
-  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/AdventureGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/combatScreen.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/combatScreen.cpp",
-  "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/combatScreen.cpp",
-  "output": "CMakeFiles/AdventureGame.dir/combatScreen.cpp.obj"
+  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/AdventureGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/UIScreens/combatScreen.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/combatScreen.cpp",
+  "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/combatScreen.cpp",
+  "output": "CMakeFiles/AdventureGame.dir/UIScreens/combatScreen.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",
+  "command": "C:/msys64/ucrt64/bin/g++.exe  @CMakeFiles/AdventureGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AdventureGame.dir/UIScreens/menuScreen.cpp.obj -c C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/menuScreen.cpp",
+  "file": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/menuScreen.cpp",
+  "output": "CMakeFiles/AdventureGame.dir/UIScreens/menuScreen.cpp.obj"
 },
 {
   "directory": "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/build",

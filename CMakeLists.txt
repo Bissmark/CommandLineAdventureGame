@@ -26,9 +26,10 @@ add_executable(${PROJECT_NAME}
     startStory.cpp
     encounter.cpp
     fight.cpp
-    displayWindow.cpp
-    characterCreationScreen.cpp
-    combatScreen.cpp
+    UIScreens/displayWindow.cpp
+    UIScreens/characterCreationScreen.cpp
+    UIScreens/combatScreen.cpp
+    UIScreens/MenuScreen.cpp
     imgui/imgui.cpp
     imgui/imgui_draw.cpp
     imgui/imgui_impl_sdl3.cpp

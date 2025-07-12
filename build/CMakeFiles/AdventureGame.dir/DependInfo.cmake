@@ -8,11 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/characterCreationScreen.cpp" "CMakeFiles/AdventureGame.dir/UIScreens/characterCreationScreen.cpp.obj" "gcc" "CMakeFiles/AdventureGame.dir/UIScreens/characterCreationScreen.cpp.obj.d"
+  "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/combatScreen.cpp" "CMakeFiles/AdventureGame.dir/UIScreens/combatScreen.cpp.obj" "gcc" "CMakeFiles/AdventureGame.dir/UIScreens/combatScreen.cpp.obj.d"
+  "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/displayWindow.cpp" "CMakeFiles/AdventureGame.dir/UIScreens/displayWindow.cpp.obj" "gcc" "CMakeFiles/AdventureGame.dir/UIScreens/displayWindow.cpp.obj.d"
+  "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/menuScreen.cpp" "CMakeFiles/AdventureGame.dir/UIScreens/menuScreen.cpp.obj" "gcc" "CMakeFiles/AdventureGame.dir/UIScreens/menuScreen.cpp.obj.d"
   "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/character.cpp" "CMakeFiles/AdventureGame.dir/character.cpp.obj" "gcc" "CMakeFiles/AdventureGame.dir/character.cpp.obj.d"
-  "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/characterCreationScreen.cpp" "CMakeFiles/AdventureGame.dir/characterCreationScreen.cpp.obj" "gcc" "CMakeFiles/AdventureGame.dir/characterCreationScreen.cpp.obj.d"
-  "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/combatScreen.cpp" "CMakeFiles/AdventureGame.dir/combatScreen.cpp.obj" "gcc" "CMakeFiles/AdventureGame.dir/combatScreen.cpp.obj.d"
   "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/dice.cpp" "CMakeFiles/AdventureGame.dir/dice.cpp.obj" "gcc" "CMakeFiles/AdventureGame.dir/dice.cpp.obj.d"
-  "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/displayWindow.cpp" "CMakeFiles/AdventureGame.dir/displayWindow.cpp.obj" "gcc" "CMakeFiles/AdventureGame.dir/displayWindow.cpp.obj.d"
   "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/encounter.cpp" "CMakeFiles/AdventureGame.dir/encounter.cpp.obj" "gcc" "CMakeFiles/AdventureGame.dir/encounter.cpp.obj.d"
   "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/enemy.cpp" "CMakeFiles/AdventureGame.dir/enemy.cpp.obj" "gcc" "CMakeFiles/AdventureGame.dir/enemy.cpp.obj.d"
   "C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/fight.cpp" "CMakeFiles/AdventureGame.dir/fight.cpp.obj" "gcc" "CMakeFiles/AdventureGame.dir/fight.cpp.obj.d"

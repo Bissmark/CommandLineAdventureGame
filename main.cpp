@@ -6,7 +6,7 @@
 #include "shaman.h"
 #include "dice.h"
 #include "startStory.h"
-#include "displayWindow.h"
+#include "UIScreens/displayWindow.h"
 using namespace std;
 
 #define WIDTH 1200

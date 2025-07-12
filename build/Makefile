@@ -129,6 +129,102 @@ AdventureGame/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/build
 .PHONY : AdventureGame/fast
 
+UIScreens/characterCreationScreen.obj: UIScreens/characterCreationScreen.cpp.obj
+.PHONY : UIScreens/characterCreationScreen.obj
+
+# target to build an object file
+UIScreens/characterCreationScreen.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/UIScreens/characterCreationScreen.cpp.obj
+.PHONY : UIScreens/characterCreationScreen.cpp.obj
+
+UIScreens/characterCreationScreen.i: UIScreens/characterCreationScreen.cpp.i
+.PHONY : UIScreens/characterCreationScreen.i
+
+# target to preprocess a source file
+UIScreens/characterCreationScreen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/UIScreens/characterCreationScreen.cpp.i
+.PHONY : UIScreens/characterCreationScreen.cpp.i
+
+UIScreens/characterCreationScreen.s: UIScreens/characterCreationScreen.cpp.s
+.PHONY : UIScreens/characterCreationScreen.s
+
+# target to generate assembly for a file
+UIScreens/characterCreationScreen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/UIScreens/characterCreationScreen.cpp.s
+.PHONY : UIScreens/characterCreationScreen.cpp.s
+
+UIScreens/combatScreen.obj: UIScreens/combatScreen.cpp.obj
+.PHONY : UIScreens/combatScreen.obj
+
+# target to build an object file
+UIScreens/combatScreen.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/UIScreens/combatScreen.cpp.obj
+.PHONY : UIScreens/combatScreen.cpp.obj
+
+UIScreens/combatScreen.i: UIScreens/combatScreen.cpp.i
+.PHONY : UIScreens/combatScreen.i
+
+# target to preprocess a source file
+UIScreens/combatScreen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/UIScreens/combatScreen.cpp.i
+.PHONY : UIScreens/combatScreen.cpp.i
+
+UIScreens/combatScreen.s: UIScreens/combatScreen.cpp.s
+.PHONY : UIScreens/combatScreen.s
+
+# target to generate assembly for a file
+UIScreens/combatScreen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/UIScreens/combatScreen.cpp.s
+.PHONY : UIScreens/combatScreen.cpp.s
+
+UIScreens/displayWindow.obj: UIScreens/displayWindow.cpp.obj
+.PHONY : UIScreens/displayWindow.obj
+
+# target to build an object file
+UIScreens/displayWindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/UIScreens/displayWindow.cpp.obj
+.PHONY : UIScreens/displayWindow.cpp.obj
+
+UIScreens/displayWindow.i: UIScreens/displayWindow.cpp.i
+.PHONY : UIScreens/displayWindow.i
+
+# target to preprocess a source file
+UIScreens/displayWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/UIScreens/displayWindow.cpp.i
+.PHONY : UIScreens/displayWindow.cpp.i
+
+UIScreens/displayWindow.s: UIScreens/displayWindow.cpp.s
+.PHONY : UIScreens/displayWindow.s
+
+# target to generate assembly for a file
+UIScreens/displayWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/UIScreens/displayWindow.cpp.s
+.PHONY : UIScreens/displayWindow.cpp.s
+
+UIScreens/menuScreen.obj: UIScreens/menuScreen.cpp.obj
+.PHONY : UIScreens/menuScreen.obj
+
+# target to build an object file
+UIScreens/menuScreen.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/UIScreens/menuScreen.cpp.obj
+.PHONY : UIScreens/menuScreen.cpp.obj
+
+UIScreens/menuScreen.i: UIScreens/menuScreen.cpp.i
+.PHONY : UIScreens/menuScreen.i
+
+# target to preprocess a source file
+UIScreens/menuScreen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/UIScreens/menuScreen.cpp.i
+.PHONY : UIScreens/menuScreen.cpp.i
+
+UIScreens/menuScreen.s: UIScreens/menuScreen.cpp.s
+.PHONY : UIScreens/menuScreen.s
+
+# target to generate assembly for a file
+UIScreens/menuScreen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/UIScreens/menuScreen.cpp.s
+.PHONY : UIScreens/menuScreen.cpp.s
+
 character.obj: character.cpp.obj
 .PHONY : character.obj
 
@@ -153,54 +249,6 @@ character.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/character.cpp.s
 .PHONY : character.cpp.s
 
-characterCreationScreen.obj: characterCreationScreen.cpp.obj
-.PHONY : characterCreationScreen.obj
-
-# target to build an object file
-characterCreationScreen.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/characterCreationScreen.cpp.obj
-.PHONY : characterCreationScreen.cpp.obj
-
-characterCreationScreen.i: characterCreationScreen.cpp.i
-.PHONY : characterCreationScreen.i
-
-# target to preprocess a source file
-characterCreationScreen.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/characterCreationScreen.cpp.i
-.PHONY : characterCreationScreen.cpp.i
-
-characterCreationScreen.s: characterCreationScreen.cpp.s
-.PHONY : characterCreationScreen.s
-
-# target to generate assembly for a file
-characterCreationScreen.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/characterCreationScreen.cpp.s
-.PHONY : characterCreationScreen.cpp.s
-
-combatScreen.obj: combatScreen.cpp.obj
-.PHONY : combatScreen.obj
-
-# target to build an object file
-combatScreen.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/combatScreen.cpp.obj
-.PHONY : combatScreen.cpp.obj
-
-combatScreen.i: combatScreen.cpp.i
-.PHONY : combatScreen.i
-
-# target to preprocess a source file
-combatScreen.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/combatScreen.cpp.i
-.PHONY : combatScreen.cpp.i
-
-combatScreen.s: combatScreen.cpp.s
-.PHONY : combatScreen.s
-
-# target to generate assembly for a file
-combatScreen.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/combatScreen.cpp.s
-.PHONY : combatScreen.cpp.s
-
 dice.obj: dice.cpp.obj
 .PHONY : dice.obj
 
@@ -224,30 +272,6 @@ dice.s: dice.cpp.s
 dice.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/dice.cpp.s
 .PHONY : dice.cpp.s
-
-displayWindow.obj: displayWindow.cpp.obj
-.PHONY : displayWindow.obj
-
-# target to build an object file
-displayWindow.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/displayWindow.cpp.obj
-.PHONY : displayWindow.cpp.obj
-
-displayWindow.i: displayWindow.cpp.i
-.PHONY : displayWindow.i
-
-# target to preprocess a source file
-displayWindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/displayWindow.cpp.i
-.PHONY : displayWindow.cpp.i
-
-displayWindow.s: displayWindow.cpp.s
-.PHONY : displayWindow.s
-
-# target to generate assembly for a file
-displayWindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/displayWindow.cpp.s
-.PHONY : displayWindow.cpp.s
 
 encounter.obj: encounter.cpp.obj
 .PHONY : encounter.obj
@@ -690,21 +714,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... AdventureGame"
+	@echo "... UIScreens/characterCreationScreen.obj"
+	@echo "... UIScreens/characterCreationScreen.i"
+	@echo "... UIScreens/characterCreationScreen.s"
+	@echo "... UIScreens/combatScreen.obj"
+	@echo "... UIScreens/combatScreen.i"
+	@echo "... UIScreens/combatScreen.s"
+	@echo "... UIScreens/displayWindow.obj"
+	@echo "... UIScreens/displayWindow.i"
+	@echo "... UIScreens/displayWindow.s"
+	@echo "... UIScreens/menuScreen.obj"
+	@echo "... UIScreens/menuScreen.i"
+	@echo "... UIScreens/menuScreen.s"
 	@echo "... character.obj"
 	@echo "... character.i"
 	@echo "... character.s"
-	@echo "... characterCreationScreen.obj"
-	@echo "... characterCreationScreen.i"
-	@echo "... characterCreationScreen.s"
-	@echo "... combatScreen.obj"
-	@echo "... combatScreen.i"
-	@echo "... combatScreen.s"
 	@echo "... dice.obj"
 	@echo "... dice.i"
 	@echo "... dice.s"
-	@echo "... displayWindow.obj"
-	@echo "... displayWindow.i"
-	@echo "... displayWindow.s"
 	@echo "... encounter.obj"
 	@echo "... encounter.i"
 	@echo "... encounter.s"

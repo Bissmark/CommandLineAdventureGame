@@ -171,7 +171,7 @@ CMakeFiles/AdventureGame.dir/main.cpp.obj: \
  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/enemy.h \
  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_impl_sdl3.h \
  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_impl_sdlrenderer3.h \
- C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/displayWindow.h \
+ C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/displayWindow.h \
  C:/vcpkg/installed/x64-windows/include/SDL3/SDL.h \
  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_stdinc.h \
  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_platform_defines.h \
@@ -233,7 +233,7 @@ CMakeFiles/AdventureGame.dir/main.cpp.obj: \
  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_tray.h \
  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_version.h \
  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_oldnames.h \
- C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/baseScreen.h \
- C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/gameState.h \
- C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/characterCreationScreen.h \
- C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/combatScreen.h
+ C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/baseScreen.h \
+ C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/gameState.h \
+ C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/characterCreationScreen.h \
+ C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/UIScreens/combatScreen.h
