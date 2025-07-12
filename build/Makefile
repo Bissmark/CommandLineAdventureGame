@@ -153,6 +153,54 @@ character.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/character.cpp.s
 .PHONY : character.cpp.s
 
+characterCreationScreen.obj: characterCreationScreen.cpp.obj
+.PHONY : characterCreationScreen.obj
+
+# target to build an object file
+characterCreationScreen.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/characterCreationScreen.cpp.obj
+.PHONY : characterCreationScreen.cpp.obj
+
+characterCreationScreen.i: characterCreationScreen.cpp.i
+.PHONY : characterCreationScreen.i
+
+# target to preprocess a source file
+characterCreationScreen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/characterCreationScreen.cpp.i
+.PHONY : characterCreationScreen.cpp.i
+
+characterCreationScreen.s: characterCreationScreen.cpp.s
+.PHONY : characterCreationScreen.s
+
+# target to generate assembly for a file
+characterCreationScreen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/characterCreationScreen.cpp.s
+.PHONY : characterCreationScreen.cpp.s
+
+combatScreen.obj: combatScreen.cpp.obj
+.PHONY : combatScreen.obj
+
+# target to build an object file
+combatScreen.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/combatScreen.cpp.obj
+.PHONY : combatScreen.cpp.obj
+
+combatScreen.i: combatScreen.cpp.i
+.PHONY : combatScreen.i
+
+# target to preprocess a source file
+combatScreen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/combatScreen.cpp.i
+.PHONY : combatScreen.cpp.i
+
+combatScreen.s: combatScreen.cpp.s
+.PHONY : combatScreen.s
+
+# target to generate assembly for a file
+combatScreen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventureGame.dir/build.make CMakeFiles/AdventureGame.dir/combatScreen.cpp.s
+.PHONY : combatScreen.cpp.s
+
 dice.obj: dice.cpp.obj
 .PHONY : dice.obj
 
@@ -645,6 +693,12 @@ help:
 	@echo "... character.obj"
 	@echo "... character.i"
 	@echo "... character.s"
+	@echo "... characterCreationScreen.obj"
+	@echo "... characterCreationScreen.i"
+	@echo "... characterCreationScreen.s"
+	@echo "... combatScreen.obj"
+	@echo "... combatScreen.i"
+	@echo "... combatScreen.s"
 	@echo "... dice.obj"
 	@echo "... dice.i"
 	@echo "... dice.s"

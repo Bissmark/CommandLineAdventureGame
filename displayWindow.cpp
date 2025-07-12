@@ -22,9 +22,14 @@ DisplayWindow::DisplayWindow(int width, int height, const std::string& title) {
     }
 
     m_isClosed = false;
+
     std::cout << "Window and renderer created successfully!" << std::endl;
 
     InitImGui();
+
+    currentState = GameState::CHARACTER_CREATION;
+    currentScreen = new CharacterCreationScreen();
+    gamePlayer = nullptr;
 }
 
 DisplayWindow::~DisplayWindow() {
@@ -35,6 +40,9 @@ DisplayWindow::~DisplayWindow() {
     }
     if (m_window) {
         SDL_DestroyWindow(m_window);
+    }
+    if (gamePlayer != nullptr) {
+        delete gamePlayer;
     }
     SDL_Quit();
 }
@@ -56,23 +64,70 @@ void DisplayWindow::Update() {
             m_isClosed = true;
         }
     }
+
+    if (currentScreen) {
+        currentScreen->Update();
+
+        GameState nextState = currentScreen->GetNextState();
+        if (nextState != currentState) {
+            ChangeScreen(nextState);
+        }
+    }
 }
 
 void DisplayWindow::Render() {
     SDL_SetRenderDrawColor(m_renderer, 25, 25, 50, 255);
     SDL_RenderClear(m_renderer);
 
-    RenderImGui();
+    ImGui_ImplSDLRenderer3_NewFrame();
+    ImGui_ImplSDL3_NewFrame();
+    ImGui::NewFrame();
     
+    if (currentScreen) {
+        currentScreen->Render();
+    }
+    
+    ImGui::Render();
+    ImGui_ImplSDLRenderer3_RenderDrawData(ImGui::GetDrawData(), m_renderer);
     SDL_RenderPresent(m_renderer);
+}
+
+void DisplayWindow::ChangeScreen(GameState newState) {
+    // Handle player transfer between screens
+    if (currentState == GameState::CHARACTER_CREATION && newState == GameState::COMBAT) {
+        CharacterCreationScreen* charScreen = dynamic_cast<CharacterCreationScreen*>(currentScreen);
+        if (charScreen) {
+            gamePlayer = charScreen->GetCreatedPlayer();
+        }
+    }
+    
+    // Clean up old screen
+    delete currentScreen;
+    currentScreen = nullptr;
+    
+    // Create new screen
+    currentState = newState;
+    switch (newState) {
+        case GameState::CHARACTER_CREATION:
+            currentScreen = new CharacterCreationScreen();
+            break;
+        case GameState::COMBAT:
+            currentScreen = new CombatScreen(gamePlayer);
+            break;
+        // Add other states as needed
+        default:
+            break;
+    }
 }
 
 void DisplayWindow::InitImGui() {
     IMGUI_CHECKVERSION();
     ImGui::CreateContext();
-    ImGuiIO& io = ImGui::GetIO(); (void)io;
+    ImGuiIO& io = ImGui::GetIO();
     
-    ImGui::StyleColorsDark();
+    //ImGui::StyleColorsDark();
+
+    io.Fonts->AddFontFromFileTTF("C:\\Users\\Gosh_\\Desktop\\Programming\\Projects\\C++\\adventureGame\\fonts\\Montserrat-VariableFont_wght.ttf", 26.0f);
     
     ImGui_ImplSDL3_InitForSDLRenderer(m_window, m_renderer);
     ImGui_ImplSDLRenderer3_Init(m_renderer);
@@ -84,16 +139,19 @@ void DisplayWindow::ShutdownImGui() {
     ImGui::DestroyContext();
 }
 
-void DisplayWindow::RenderImGui() {
-    ImGui_ImplSDLRenderer3_NewFrame();
-    ImGui_ImplSDL3_NewFrame();
-    ImGui::NewFrame();
-
-    if (ImGui::Begin("Adventure Game")) {
-        ImGui::Text("Welcome to your Adventure!");
-    }
-
-    ImGui::End();
-    ImGui::Render();
-    ImGui_ImplSDLRenderer3_RenderDrawData(ImGui::GetDrawData(), m_renderer);
-}
+// bool DisplayWindow::IsElementVisible(const std::string& id, float& alpha) {
+//     float currentTime = SDL_GetTicks() / 1000.0f;
+//     float elapsed = currentTime - m_gameStartTime;
+    
+//     for (auto& element : m_timedElements) {
+//         if (element.id == id) {
+//             if (elapsed >= element.showTime) {
+//                 float fadeTime = elapsed - element.showTime;
+//                 alpha = std::min(fadeTime / 0.5f, 1.0f); // 0.5s fade-in
+//                 return alpha > 0.0f;
+//             }
+//         }
+//     }
+//     alpha = 0.0f;
+//     return false;
+// }

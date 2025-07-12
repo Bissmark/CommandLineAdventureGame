@@ -3,6 +3,9 @@
 #include <algorithm>
 #include "player.h"
 #include "enemy.h"
+#include "imgui/imgui.h"
+#include "imgui/imgui_impl_sdl3.h"
+#include "imgui/imgui_impl_sdlrenderer3.h"
 using namespace std;
 
 class Fight {
@@ -14,9 +17,9 @@ class Fight {
         void PlayerTurn();
         void EnemyTurn();
         void Run();
+        Enemy* enemy;
     private:
         Player* player;
-        Enemy* enemy;
         bool fightActive;
         int whosTurn;
 };

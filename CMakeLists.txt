@@ -27,6 +27,8 @@ add_executable(${PROJECT_NAME}
     encounter.cpp
     fight.cpp
     displayWindow.cpp
+    characterCreationScreen.cpp
+    combatScreen.cpp
     imgui/imgui.cpp
     imgui/imgui_draw.cpp
     imgui/imgui_impl_sdl3.cpp

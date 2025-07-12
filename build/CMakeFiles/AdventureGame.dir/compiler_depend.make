@@ -148,6 +148,466 @@ CMakeFiles/AdventureGame.dir/character.cpp.obj: C:/Users/Gosh_/Desktop/Programmi
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h
 
+CMakeFiles/AdventureGame.dir/characterCreationScreen.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/characterCreationScreen.cpp \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/baseScreen.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/character.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/characterCreationScreen.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/gameState.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imconfig.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/mage.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/player.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/rogue.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/shaman.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/warrior.h \
+  C:/msys64/ucrt64/include/_mingw.h \
+  C:/msys64/ucrt64/include/_mingw_mac.h \
+  C:/msys64/ucrt64/include/_mingw_off_t.h \
+  C:/msys64/ucrt64/include/_mingw_secapi.h \
+  C:/msys64/ucrt64/include/_mingw_stat64.h \
+  C:/msys64/ucrt64/include/_mingw_stdarg.h \
+  C:/msys64/ucrt64/include/_timeval.h \
+  C:/msys64/ucrt64/include/assert.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/backward/binders.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bit \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/allocator.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.tcc \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.tcc \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/char_traits.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/charconv.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/concept_check.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/cpp_type_traits.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/cxxabi_forced.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/cxxabi_init_exception.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/exception.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/exception_defines.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/exception_ptr.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/functexcept.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/functional_hash.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/hash_bytes.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/invoke.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/istream.tcc \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.tcc \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.tcc \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/localefwd.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/memory_resource.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/memoryfwd.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/move.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/nested_exception.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/new_allocator.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/ostream.tcc \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/ostream_insert.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/postypes.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/predefined_ops.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/ptr_traits.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/range_access.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/refwrap.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/requires_hosted.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/std_abs.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_construct.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_function.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_funcs.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_types.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_pair.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf.tcc \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf_iterator.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/string_view.tcc \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stringfwd.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator_args.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/utility.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/cctype \
+  C:/msys64/ucrt64/include/c++/14.2.0/cerrno \
+  C:/msys64/ucrt64/include/c++/14.2.0/clocale \
+  C:/msys64/ucrt64/include/c++/14.2.0/concepts \
+  C:/msys64/ucrt64/include/c++/14.2.0/cstddef \
+  C:/msys64/ucrt64/include/c++/14.2.0/cstdio \
+  C:/msys64/ucrt64/include/c++/14.2.0/cstdlib \
+  C:/msys64/ucrt64/include/c++/14.2.0/cwchar \
+  C:/msys64/ucrt64/include/c++/14.2.0/cwctype \
+  C:/msys64/ucrt64/include/c++/14.2.0/debug/assertions.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/debug/debug.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/exception \
+  C:/msys64/ucrt64/include/c++/14.2.0/ext/alloc_traits.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/ext/atomicity.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/ext/numeric_traits.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/ext/string_conversions.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/ext/type_traits.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/initializer_list \
+  C:/msys64/ucrt64/include/c++/14.2.0/ios \
+  C:/msys64/ucrt64/include/c++/14.2.0/iosfwd \
+  C:/msys64/ucrt64/include/c++/14.2.0/iostream \
+  C:/msys64/ucrt64/include/c++/14.2.0/istream \
+  C:/msys64/ucrt64/include/c++/14.2.0/new \
+  C:/msys64/ucrt64/include/c++/14.2.0/ostream \
+  C:/msys64/ucrt64/include/c++/14.2.0/pstl/pstl_config.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/stdexcept \
+  C:/msys64/ucrt64/include/c++/14.2.0/stdlib.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/streambuf \
+  C:/msys64/ucrt64/include/c++/14.2.0/string \
+  C:/msys64/ucrt64/include/c++/14.2.0/string_view \
+  C:/msys64/ucrt64/include/c++/14.2.0/system_error \
+  C:/msys64/ucrt64/include/c++/14.2.0/tuple \
+  C:/msys64/ucrt64/include/c++/14.2.0/type_traits \
+  C:/msys64/ucrt64/include/c++/14.2.0/typeinfo \
+  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++locale.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/error_constants.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr-default.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/msys64/ucrt64/include/corecrt.h \
+  C:/msys64/ucrt64/include/corecrt_startup.h \
+  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
+  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
+  C:/msys64/ucrt64/include/crtdefs.h \
+  C:/msys64/ucrt64/include/ctype.h \
+  C:/msys64/ucrt64/include/errno.h \
+  C:/msys64/ucrt64/include/float.h \
+  C:/msys64/ucrt64/include/limits.h \
+  C:/msys64/ucrt64/include/locale.h \
+  C:/msys64/ucrt64/include/malloc.h \
+  C:/msys64/ucrt64/include/process.h \
+  C:/msys64/ucrt64/include/pthread.h \
+  C:/msys64/ucrt64/include/pthread_compat.h \
+  C:/msys64/ucrt64/include/pthread_signal.h \
+  C:/msys64/ucrt64/include/pthread_time.h \
+  C:/msys64/ucrt64/include/pthread_unistd.h \
+  C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
+  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
+  C:/msys64/ucrt64/include/sec_api/string_s.h \
+  C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
+  C:/msys64/ucrt64/include/sec_api/wchar_s.h \
+  C:/msys64/ucrt64/include/signal.h \
+  C:/msys64/ucrt64/include/stdarg.h \
+  C:/msys64/ucrt64/include/stddef.h \
+  C:/msys64/ucrt64/include/stdint.h \
+  C:/msys64/ucrt64/include/stdio.h \
+  C:/msys64/ucrt64/include/stdlib.h \
+  C:/msys64/ucrt64/include/string.h \
+  C:/msys64/ucrt64/include/swprintf.inl \
+  C:/msys64/ucrt64/include/sys/timeb.h \
+  C:/msys64/ucrt64/include/sys/types.h \
+  C:/msys64/ucrt64/include/time.h \
+  C:/msys64/ucrt64/include/vadefs.h \
+  C:/msys64/ucrt64/include/wchar.h \
+  C:/msys64/ucrt64/include/wctype.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/float.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_assert.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_asyncio.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_atomic.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_audio.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_begin_code.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_bits.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_blendmode.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_camera.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_clipboard.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_close_code.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_cpuinfo.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_dialog.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_endian.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_error.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_events.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_filesystem.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_gamepad.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_gpu.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_guid.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_haptic.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_hidapi.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_hints.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_init.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_iostream.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_joystick.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_keyboard.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_keycode.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_loadso.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_locale.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_log.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_messagebox.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_metal.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_misc.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_mouse.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_mutex.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_oldnames.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_pen.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_pixels.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_platform.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_platform_defines.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_power.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_process.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_properties.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_rect.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_render.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_scancode.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_sensor.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_stdinc.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_storage.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_surface.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_system.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_thread.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_time.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_timer.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_touch.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_tray.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_version.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_video.h
+
+CMakeFiles/AdventureGame.dir/combatScreen.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/combatScreen.cpp \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/baseScreen.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/character.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/combatScreen.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/enemy.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/fight.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/gameState.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imconfig.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_impl_sdl3.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_impl_sdlrenderer3.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/player.h \
+  C:/msys64/ucrt64/include/_mingw.h \
+  C:/msys64/ucrt64/include/_mingw_mac.h \
+  C:/msys64/ucrt64/include/_mingw_off_t.h \
+  C:/msys64/ucrt64/include/_mingw_secapi.h \
+  C:/msys64/ucrt64/include/_mingw_stat64.h \
+  C:/msys64/ucrt64/include/_mingw_stdarg.h \
+  C:/msys64/ucrt64/include/_timeval.h \
+  C:/msys64/ucrt64/include/assert.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/algorithm \
+  C:/msys64/ucrt64/include/c++/14.2.0/backward/binders.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bit \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/algorithmfwd.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/allocator.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.tcc \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.tcc \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/char_traits.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/charconv.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/concept_check.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/cpp_type_traits.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/cxxabi_forced.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/cxxabi_init_exception.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/exception.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/exception_defines.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/exception_ptr.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/functexcept.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/functional_hash.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/hash_bytes.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/invoke.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/istream.tcc \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.tcc \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.tcc \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/localefwd.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/memory_resource.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/memoryfwd.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/move.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/nested_exception.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/new_allocator.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/ostream.tcc \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/ostream_insert.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/postypes.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/predefined_ops.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/ptr_traits.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/range_access.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/refwrap.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/requires_hosted.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/std_abs.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algo.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_construct.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_function.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_heap.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_funcs.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_types.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_pair.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_tempbuf.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf.tcc \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf_iterator.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/string_view.tcc \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stringfwd.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/uniform_int_dist.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator_args.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/utility.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/cctype \
+  C:/msys64/ucrt64/include/c++/14.2.0/cerrno \
+  C:/msys64/ucrt64/include/c++/14.2.0/clocale \
+  C:/msys64/ucrt64/include/c++/14.2.0/concepts \
+  C:/msys64/ucrt64/include/c++/14.2.0/cstddef \
+  C:/msys64/ucrt64/include/c++/14.2.0/cstdio \
+  C:/msys64/ucrt64/include/c++/14.2.0/cstdlib \
+  C:/msys64/ucrt64/include/c++/14.2.0/cwchar \
+  C:/msys64/ucrt64/include/c++/14.2.0/cwctype \
+  C:/msys64/ucrt64/include/c++/14.2.0/debug/assertions.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/debug/debug.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/exception \
+  C:/msys64/ucrt64/include/c++/14.2.0/ext/alloc_traits.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/ext/atomicity.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/ext/numeric_traits.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/ext/string_conversions.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/ext/type_traits.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/initializer_list \
+  C:/msys64/ucrt64/include/c++/14.2.0/ios \
+  C:/msys64/ucrt64/include/c++/14.2.0/iosfwd \
+  C:/msys64/ucrt64/include/c++/14.2.0/iostream \
+  C:/msys64/ucrt64/include/c++/14.2.0/istream \
+  C:/msys64/ucrt64/include/c++/14.2.0/new \
+  C:/msys64/ucrt64/include/c++/14.2.0/ostream \
+  C:/msys64/ucrt64/include/c++/14.2.0/pstl/execution_defs.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/pstl/glue_algorithm_defs.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/pstl/pstl_config.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/stdexcept \
+  C:/msys64/ucrt64/include/c++/14.2.0/stdlib.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/streambuf \
+  C:/msys64/ucrt64/include/c++/14.2.0/string \
+  C:/msys64/ucrt64/include/c++/14.2.0/string_view \
+  C:/msys64/ucrt64/include/c++/14.2.0/system_error \
+  C:/msys64/ucrt64/include/c++/14.2.0/tuple \
+  C:/msys64/ucrt64/include/c++/14.2.0/type_traits \
+  C:/msys64/ucrt64/include/c++/14.2.0/typeinfo \
+  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++locale.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/error_constants.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr-default.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/msys64/ucrt64/include/corecrt.h \
+  C:/msys64/ucrt64/include/corecrt_startup.h \
+  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
+  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
+  C:/msys64/ucrt64/include/crtdefs.h \
+  C:/msys64/ucrt64/include/ctype.h \
+  C:/msys64/ucrt64/include/errno.h \
+  C:/msys64/ucrt64/include/float.h \
+  C:/msys64/ucrt64/include/limits.h \
+  C:/msys64/ucrt64/include/locale.h \
+  C:/msys64/ucrt64/include/malloc.h \
+  C:/msys64/ucrt64/include/process.h \
+  C:/msys64/ucrt64/include/pthread.h \
+  C:/msys64/ucrt64/include/pthread_compat.h \
+  C:/msys64/ucrt64/include/pthread_signal.h \
+  C:/msys64/ucrt64/include/pthread_time.h \
+  C:/msys64/ucrt64/include/pthread_unistd.h \
+  C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
+  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
+  C:/msys64/ucrt64/include/sec_api/string_s.h \
+  C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
+  C:/msys64/ucrt64/include/sec_api/wchar_s.h \
+  C:/msys64/ucrt64/include/signal.h \
+  C:/msys64/ucrt64/include/stdarg.h \
+  C:/msys64/ucrt64/include/stddef.h \
+  C:/msys64/ucrt64/include/stdint.h \
+  C:/msys64/ucrt64/include/stdio.h \
+  C:/msys64/ucrt64/include/stdlib.h \
+  C:/msys64/ucrt64/include/string.h \
+  C:/msys64/ucrt64/include/swprintf.inl \
+  C:/msys64/ucrt64/include/sys/timeb.h \
+  C:/msys64/ucrt64/include/sys/types.h \
+  C:/msys64/ucrt64/include/time.h \
+  C:/msys64/ucrt64/include/vadefs.h \
+  C:/msys64/ucrt64/include/wchar.h \
+  C:/msys64/ucrt64/include/wctype.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/float.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_assert.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_asyncio.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_atomic.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_audio.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_begin_code.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_bits.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_blendmode.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_camera.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_clipboard.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_close_code.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_cpuinfo.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_dialog.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_endian.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_error.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_events.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_filesystem.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_gamepad.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_gpu.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_guid.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_haptic.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_hidapi.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_hints.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_init.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_iostream.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_joystick.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_keyboard.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_keycode.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_loadso.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_locale.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_log.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_messagebox.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_metal.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_misc.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_mouse.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_mutex.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_oldnames.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_pen.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_pixels.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_platform.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_platform_defines.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_power.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_process.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_properties.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_rect.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_render.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_scancode.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_sensor.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_stdinc.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_storage.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_surface.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_system.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_thread.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_time.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_timer.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_touch.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_tray.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_version.h \
+  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_video.h
+
 CMakeFiles/AdventureGame.dir/dice.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/dice.cpp \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/dice.h \
   C:/msys64/ucrt64/include/_mingw.h \
@@ -296,11 +756,23 @@ CMakeFiles/AdventureGame.dir/dice.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Pr
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h
 
 CMakeFiles/AdventureGame.dir/displayWindow.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/displayWindow.cpp \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/baseScreen.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/character.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/characterCreationScreen.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/combatScreen.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/displayWindow.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/enemy.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/fight.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/gameState.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imconfig.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_impl_sdl3.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_impl_sdlrenderer3.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/mage.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/player.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/rogue.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/shaman.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/warrior.h \
   C:/msys64/ucrt64/include/_mingw.h \
   C:/msys64/ucrt64/include/_mingw_mac.h \
   C:/msys64/ucrt64/include/_mingw_off_t.h \
@@ -309,8 +781,10 @@ CMakeFiles/AdventureGame.dir/displayWindow.cpp.obj: C:/Users/Gosh_/Desktop/Progr
   C:/msys64/ucrt64/include/_mingw_stdarg.h \
   C:/msys64/ucrt64/include/_timeval.h \
   C:/msys64/ucrt64/include/assert.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/algorithm \
   C:/msys64/ucrt64/include/c++/14.2.0/backward/binders.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bit \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/algorithmfwd.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/allocator.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.h \
@@ -351,17 +825,21 @@ CMakeFiles/AdventureGame.dir/displayWindow.cpp.obj: C:/Users/Gosh_/Desktop/Progr
   C:/msys64/ucrt64/include/c++/14.2.0/bits/refwrap.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/requires_hosted.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/std_abs.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algo.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_construct.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_function.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_heap.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_funcs.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_types.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_pair.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_tempbuf.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf.tcc \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf_iterator.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/string_view.tcc \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stringfwd.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/uniform_int_dist.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator_args.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/utility.h \
@@ -390,6 +868,8 @@ CMakeFiles/AdventureGame.dir/displayWindow.cpp.obj: C:/Users/Gosh_/Desktop/Progr
   C:/msys64/ucrt64/include/c++/14.2.0/istream \
   C:/msys64/ucrt64/include/c++/14.2.0/new \
   C:/msys64/ucrt64/include/c++/14.2.0/ostream \
+  C:/msys64/ucrt64/include/c++/14.2.0/pstl/execution_defs.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/pstl/glue_algorithm_defs.h \
   C:/msys64/ucrt64/include/c++/14.2.0/pstl/pstl_config.h \
   C:/msys64/ucrt64/include/c++/14.2.0/stdexcept \
   C:/msys64/ucrt64/include/c++/14.2.0/stdlib.h \
@@ -671,13 +1151,19 @@ CMakeFiles/AdventureGame.dir/fight.cpp.obj: C:/Users/Gosh_/Desktop/Programming/P
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/character.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/enemy.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/fight.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imconfig.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_impl_sdl3.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_impl_sdlrenderer3.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/player.h \
   C:/msys64/ucrt64/include/_mingw.h \
   C:/msys64/ucrt64/include/_mingw_mac.h \
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stat64.h \
+  C:/msys64/ucrt64/include/_mingw_stdarg.h \
   C:/msys64/ucrt64/include/_timeval.h \
+  C:/msys64/ucrt64/include/assert.h \
   C:/msys64/ucrt64/include/c++/14.2.0/algorithm \
   C:/msys64/ucrt64/include/c++/14.2.0/backward/binders.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bit \
@@ -795,6 +1281,7 @@ CMakeFiles/AdventureGame.dir/fight.cpp.obj: C:/Users/Gosh_/Desktop/Programming/P
   C:/msys64/ucrt64/include/crtdefs.h \
   C:/msys64/ucrt64/include/ctype.h \
   C:/msys64/ucrt64/include/errno.h \
+  C:/msys64/ucrt64/include/float.h \
   C:/msys64/ucrt64/include/limits.h \
   C:/msys64/ucrt64/include/locale.h \
   C:/msys64/ucrt64/include/malloc.h \
@@ -807,12 +1294,15 @@ CMakeFiles/AdventureGame.dir/fight.cpp.obj: C:/Users/Gosh_/Desktop/Programming/P
   C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
   C:/msys64/ucrt64/include/sec_api/stdio_s.h \
   C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
+  C:/msys64/ucrt64/include/sec_api/string_s.h \
   C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
   C:/msys64/ucrt64/include/sec_api/wchar_s.h \
   C:/msys64/ucrt64/include/signal.h \
+  C:/msys64/ucrt64/include/stdarg.h \
   C:/msys64/ucrt64/include/stddef.h \
   C:/msys64/ucrt64/include/stdio.h \
   C:/msys64/ucrt64/include/stdlib.h \
+  C:/msys64/ucrt64/include/string.h \
   C:/msys64/ucrt64/include/swprintf.inl \
   C:/msys64/ucrt64/include/sys/timeb.h \
   C:/msys64/ucrt64/include/sys/types.h \
@@ -820,8 +1310,10 @@ CMakeFiles/AdventureGame.dir/fight.cpp.obj: C:/Users/Gosh_/Desktop/Programming/P
   C:/msys64/ucrt64/include/vadefs.h \
   C:/msys64/ucrt64/include/wchar.h \
   C:/msys64/ucrt64/include/wctype.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/float.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h
 
@@ -2282,6 +2774,8 @@ CMakeFiles/AdventureGame.dir/imgui/imgui_widgets.cpp.obj: C:/Users/Gosh_/Desktop
 
 CMakeFiles/AdventureGame.dir/mage.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/mage.cpp \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/character.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imconfig.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/mage.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/player.h \
   C:/msys64/ucrt64/include/_mingw.h \
@@ -2289,7 +2783,9 @@ CMakeFiles/AdventureGame.dir/mage.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Pr
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stat64.h \
+  C:/msys64/ucrt64/include/_mingw_stdarg.h \
   C:/msys64/ucrt64/include/_timeval.h \
+  C:/msys64/ucrt64/include/assert.h \
   C:/msys64/ucrt64/include/c++/14.2.0/backward/binders.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bit \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h \
@@ -2399,6 +2895,7 @@ CMakeFiles/AdventureGame.dir/mage.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Pr
   C:/msys64/ucrt64/include/crtdefs.h \
   C:/msys64/ucrt64/include/ctype.h \
   C:/msys64/ucrt64/include/errno.h \
+  C:/msys64/ucrt64/include/float.h \
   C:/msys64/ucrt64/include/limits.h \
   C:/msys64/ucrt64/include/locale.h \
   C:/msys64/ucrt64/include/malloc.h \
@@ -2411,12 +2908,15 @@ CMakeFiles/AdventureGame.dir/mage.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Pr
   C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
   C:/msys64/ucrt64/include/sec_api/stdio_s.h \
   C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
+  C:/msys64/ucrt64/include/sec_api/string_s.h \
   C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
   C:/msys64/ucrt64/include/sec_api/wchar_s.h \
   C:/msys64/ucrt64/include/signal.h \
+  C:/msys64/ucrt64/include/stdarg.h \
   C:/msys64/ucrt64/include/stddef.h \
   C:/msys64/ucrt64/include/stdio.h \
   C:/msys64/ucrt64/include/stdlib.h \
+  C:/msys64/ucrt64/include/string.h \
   C:/msys64/ucrt64/include/swprintf.inl \
   C:/msys64/ucrt64/include/sys/timeb.h \
   C:/msys64/ucrt64/include/sys/types.h \
@@ -2424,17 +2924,23 @@ CMakeFiles/AdventureGame.dir/mage.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Pr
   C:/msys64/ucrt64/include/vadefs.h \
   C:/msys64/ucrt64/include/wchar.h \
   C:/msys64/ucrt64/include/wctype.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/float.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h
 
 CMakeFiles/AdventureGame.dir/main.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/main.cpp \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/baseScreen.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/character.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/characterCreationScreen.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/combatScreen.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/dice.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/displayWindow.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/enemy.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/fight.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/gameState.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imconfig.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_impl_sdl3.h \
@@ -2674,13 +3180,17 @@ CMakeFiles/AdventureGame.dir/main.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Pr
 
 CMakeFiles/AdventureGame.dir/player.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/player.cpp \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/character.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imconfig.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/player.h \
   C:/msys64/ucrt64/include/_mingw.h \
   C:/msys64/ucrt64/include/_mingw_mac.h \
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stat64.h \
+  C:/msys64/ucrt64/include/_mingw_stdarg.h \
   C:/msys64/ucrt64/include/_timeval.h \
+  C:/msys64/ucrt64/include/assert.h \
   C:/msys64/ucrt64/include/c++/14.2.0/backward/binders.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bit \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h \
@@ -2790,6 +3300,7 @@ CMakeFiles/AdventureGame.dir/player.cpp.obj: C:/Users/Gosh_/Desktop/Programming/
   C:/msys64/ucrt64/include/crtdefs.h \
   C:/msys64/ucrt64/include/ctype.h \
   C:/msys64/ucrt64/include/errno.h \
+  C:/msys64/ucrt64/include/float.h \
   C:/msys64/ucrt64/include/limits.h \
   C:/msys64/ucrt64/include/locale.h \
   C:/msys64/ucrt64/include/malloc.h \
@@ -2802,12 +3313,15 @@ CMakeFiles/AdventureGame.dir/player.cpp.obj: C:/Users/Gosh_/Desktop/Programming/
   C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
   C:/msys64/ucrt64/include/sec_api/stdio_s.h \
   C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
+  C:/msys64/ucrt64/include/sec_api/string_s.h \
   C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
   C:/msys64/ucrt64/include/sec_api/wchar_s.h \
   C:/msys64/ucrt64/include/signal.h \
+  C:/msys64/ucrt64/include/stdarg.h \
   C:/msys64/ucrt64/include/stddef.h \
   C:/msys64/ucrt64/include/stdio.h \
   C:/msys64/ucrt64/include/stdlib.h \
+  C:/msys64/ucrt64/include/string.h \
   C:/msys64/ucrt64/include/swprintf.inl \
   C:/msys64/ucrt64/include/sys/timeb.h \
   C:/msys64/ucrt64/include/sys/types.h \
@@ -2815,13 +3329,17 @@ CMakeFiles/AdventureGame.dir/player.cpp.obj: C:/Users/Gosh_/Desktop/Programming/
   C:/msys64/ucrt64/include/vadefs.h \
   C:/msys64/ucrt64/include/wchar.h \
   C:/msys64/ucrt64/include/wctype.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/float.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h
 
 CMakeFiles/AdventureGame.dir/rogue.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/rogue.cpp \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/character.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imconfig.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/player.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/rogue.h \
   C:/msys64/ucrt64/include/_mingw.h \
@@ -2829,7 +3347,9 @@ CMakeFiles/AdventureGame.dir/rogue.cpp.obj: C:/Users/Gosh_/Desktop/Programming/P
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stat64.h \
+  C:/msys64/ucrt64/include/_mingw_stdarg.h \
   C:/msys64/ucrt64/include/_timeval.h \
+  C:/msys64/ucrt64/include/assert.h \
   C:/msys64/ucrt64/include/c++/14.2.0/backward/binders.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bit \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h \
@@ -2939,6 +3459,7 @@ CMakeFiles/AdventureGame.dir/rogue.cpp.obj: C:/Users/Gosh_/Desktop/Programming/P
   C:/msys64/ucrt64/include/crtdefs.h \
   C:/msys64/ucrt64/include/ctype.h \
   C:/msys64/ucrt64/include/errno.h \
+  C:/msys64/ucrt64/include/float.h \
   C:/msys64/ucrt64/include/limits.h \
   C:/msys64/ucrt64/include/locale.h \
   C:/msys64/ucrt64/include/malloc.h \
@@ -2951,12 +3472,15 @@ CMakeFiles/AdventureGame.dir/rogue.cpp.obj: C:/Users/Gosh_/Desktop/Programming/P
   C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
   C:/msys64/ucrt64/include/sec_api/stdio_s.h \
   C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
+  C:/msys64/ucrt64/include/sec_api/string_s.h \
   C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
   C:/msys64/ucrt64/include/sec_api/wchar_s.h \
   C:/msys64/ucrt64/include/signal.h \
+  C:/msys64/ucrt64/include/stdarg.h \
   C:/msys64/ucrt64/include/stddef.h \
   C:/msys64/ucrt64/include/stdio.h \
   C:/msys64/ucrt64/include/stdlib.h \
+  C:/msys64/ucrt64/include/string.h \
   C:/msys64/ucrt64/include/swprintf.inl \
   C:/msys64/ucrt64/include/sys/timeb.h \
   C:/msys64/ucrt64/include/sys/types.h \
@@ -2964,13 +3488,17 @@ CMakeFiles/AdventureGame.dir/rogue.cpp.obj: C:/Users/Gosh_/Desktop/Programming/P
   C:/msys64/ucrt64/include/vadefs.h \
   C:/msys64/ucrt64/include/wchar.h \
   C:/msys64/ucrt64/include/wctype.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/float.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h
 
 CMakeFiles/AdventureGame.dir/shaman.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/shaman.cpp \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/character.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imconfig.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/player.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/shaman.h \
   C:/msys64/ucrt64/include/_mingw.h \
@@ -2978,7 +3506,9 @@ CMakeFiles/AdventureGame.dir/shaman.cpp.obj: C:/Users/Gosh_/Desktop/Programming/
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stat64.h \
+  C:/msys64/ucrt64/include/_mingw_stdarg.h \
   C:/msys64/ucrt64/include/_timeval.h \
+  C:/msys64/ucrt64/include/assert.h \
   C:/msys64/ucrt64/include/c++/14.2.0/backward/binders.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bit \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h \
@@ -3088,6 +3618,7 @@ CMakeFiles/AdventureGame.dir/shaman.cpp.obj: C:/Users/Gosh_/Desktop/Programming/
   C:/msys64/ucrt64/include/crtdefs.h \
   C:/msys64/ucrt64/include/ctype.h \
   C:/msys64/ucrt64/include/errno.h \
+  C:/msys64/ucrt64/include/float.h \
   C:/msys64/ucrt64/include/limits.h \
   C:/msys64/ucrt64/include/locale.h \
   C:/msys64/ucrt64/include/malloc.h \
@@ -3100,12 +3631,15 @@ CMakeFiles/AdventureGame.dir/shaman.cpp.obj: C:/Users/Gosh_/Desktop/Programming/
   C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
   C:/msys64/ucrt64/include/sec_api/stdio_s.h \
   C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
+  C:/msys64/ucrt64/include/sec_api/string_s.h \
   C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
   C:/msys64/ucrt64/include/sec_api/wchar_s.h \
   C:/msys64/ucrt64/include/signal.h \
+  C:/msys64/ucrt64/include/stdarg.h \
   C:/msys64/ucrt64/include/stddef.h \
   C:/msys64/ucrt64/include/stdio.h \
   C:/msys64/ucrt64/include/stdlib.h \
+  C:/msys64/ucrt64/include/string.h \
   C:/msys64/ucrt64/include/swprintf.inl \
   C:/msys64/ucrt64/include/sys/timeb.h \
   C:/msys64/ucrt64/include/sys/types.h \
@@ -3113,8 +3647,10 @@ CMakeFiles/AdventureGame.dir/shaman.cpp.obj: C:/Users/Gosh_/Desktop/Programming/
   C:/msys64/ucrt64/include/vadefs.h \
   C:/msys64/ucrt64/include/wchar.h \
   C:/msys64/ucrt64/include/wctype.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/float.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h
 
@@ -3122,6 +3658,10 @@ CMakeFiles/AdventureGame.dir/startStory.cpp.obj: C:/Users/Gosh_/Desktop/Programm
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/character.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/enemy.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/fight.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imconfig.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_impl_sdl3.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_impl_sdlrenderer3.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/player.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/startStory.h \
   C:/msys64/ucrt64/include/_mingw.h \
@@ -3129,7 +3669,9 @@ CMakeFiles/AdventureGame.dir/startStory.cpp.obj: C:/Users/Gosh_/Desktop/Programm
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stat64.h \
+  C:/msys64/ucrt64/include/_mingw_stdarg.h \
   C:/msys64/ucrt64/include/_timeval.h \
+  C:/msys64/ucrt64/include/assert.h \
   C:/msys64/ucrt64/include/c++/14.2.0/algorithm \
   C:/msys64/ucrt64/include/c++/14.2.0/backward/binders.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bit \
@@ -3252,6 +3794,7 @@ CMakeFiles/AdventureGame.dir/startStory.cpp.obj: C:/Users/Gosh_/Desktop/Programm
   C:/msys64/ucrt64/include/crtdefs.h \
   C:/msys64/ucrt64/include/ctype.h \
   C:/msys64/ucrt64/include/errno.h \
+  C:/msys64/ucrt64/include/float.h \
   C:/msys64/ucrt64/include/limits.h \
   C:/msys64/ucrt64/include/locale.h \
   C:/msys64/ucrt64/include/malloc.h \
@@ -3264,12 +3807,15 @@ CMakeFiles/AdventureGame.dir/startStory.cpp.obj: C:/Users/Gosh_/Desktop/Programm
   C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
   C:/msys64/ucrt64/include/sec_api/stdio_s.h \
   C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
+  C:/msys64/ucrt64/include/sec_api/string_s.h \
   C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
   C:/msys64/ucrt64/include/sec_api/wchar_s.h \
   C:/msys64/ucrt64/include/signal.h \
+  C:/msys64/ucrt64/include/stdarg.h \
   C:/msys64/ucrt64/include/stddef.h \
   C:/msys64/ucrt64/include/stdio.h \
   C:/msys64/ucrt64/include/stdlib.h \
+  C:/msys64/ucrt64/include/string.h \
   C:/msys64/ucrt64/include/swprintf.inl \
   C:/msys64/ucrt64/include/sys/timeb.h \
   C:/msys64/ucrt64/include/sys/types.h \
@@ -3277,13 +3823,17 @@ CMakeFiles/AdventureGame.dir/startStory.cpp.obj: C:/Users/Gosh_/Desktop/Programm
   C:/msys64/ucrt64/include/vadefs.h \
   C:/msys64/ucrt64/include/wchar.h \
   C:/msys64/ucrt64/include/wctype.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/float.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h
 
 CMakeFiles/AdventureGame.dir/warrior.cpp.obj: C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/warrior.cpp \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/character.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imconfig.h \
+  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/player.h \
   C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/warrior.h \
   C:/msys64/ucrt64/include/_mingw.h \
@@ -3291,7 +3841,9 @@ CMakeFiles/AdventureGame.dir/warrior.cpp.obj: C:/Users/Gosh_/Desktop/Programming
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stat64.h \
+  C:/msys64/ucrt64/include/_mingw_stdarg.h \
   C:/msys64/ucrt64/include/_timeval.h \
+  C:/msys64/ucrt64/include/assert.h \
   C:/msys64/ucrt64/include/c++/14.2.0/backward/binders.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bit \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h \
@@ -3401,6 +3953,7 @@ CMakeFiles/AdventureGame.dir/warrior.cpp.obj: C:/Users/Gosh_/Desktop/Programming
   C:/msys64/ucrt64/include/crtdefs.h \
   C:/msys64/ucrt64/include/ctype.h \
   C:/msys64/ucrt64/include/errno.h \
+  C:/msys64/ucrt64/include/float.h \
   C:/msys64/ucrt64/include/limits.h \
   C:/msys64/ucrt64/include/locale.h \
   C:/msys64/ucrt64/include/malloc.h \
@@ -3413,12 +3966,15 @@ CMakeFiles/AdventureGame.dir/warrior.cpp.obj: C:/Users/Gosh_/Desktop/Programming
   C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
   C:/msys64/ucrt64/include/sec_api/stdio_s.h \
   C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
+  C:/msys64/ucrt64/include/sec_api/string_s.h \
   C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
   C:/msys64/ucrt64/include/sec_api/wchar_s.h \
   C:/msys64/ucrt64/include/signal.h \
+  C:/msys64/ucrt64/include/stdarg.h \
   C:/msys64/ucrt64/include/stddef.h \
   C:/msys64/ucrt64/include/stdio.h \
   C:/msys64/ucrt64/include/stdlib.h \
+  C:/msys64/ucrt64/include/string.h \
   C:/msys64/ucrt64/include/swprintf.inl \
   C:/msys64/ucrt64/include/sys/timeb.h \
   C:/msys64/ucrt64/include/sys/types.h \
@@ -3426,8 +3982,10 @@ CMakeFiles/AdventureGame.dir/warrior.cpp.obj: C:/Users/Gosh_/Desktop/Programming
   C:/msys64/ucrt64/include/vadefs.h \
   C:/msys64/ucrt64/include/wchar.h \
   C:/msys64/ucrt64/include/wctype.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/float.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h
 
@@ -3732,6 +4290,8 @@ C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/atomic_word.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/ostream:
 
+C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/characterCreationScreen.h:
+
 C:/msys64/ucrt64/include/c++/14.2.0/pstl/pstl_config.h:
 
 C:/msys64/ucrt64/include/fltwinerror.h:
@@ -3785,6 +4345,8 @@ C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/ctype_base.h:
 C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/ctype_inline.h:
 
 C:/msys64/ucrt64/include/winnls.h:
+
+C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/baseScreen.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/error_constants.h:
 
@@ -3878,29 +4440,37 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h:
 
-C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/dice.cpp:
+C:/vcpkg/installed/x64-windows/include/SDL3/SDL_version.h:
 
-C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/rogue.cpp:
+C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/characterCreationScreen.cpp:
 
-C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/dice.h:
-
-C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/displayWindow.h:
+C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/gameState.h:
 
 C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/emmintrin.h:
+C:/msys64/ucrt64/include/float.h:
 
-C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_impl_sdl3.h:
+C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/mage.h:
+
+C:/msys64/ucrt64/include/_mingw_unicode.h:
+
+C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/encounter.h:
+
+C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/player.h:
+
+C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/rogue.h:
+
+C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/shaman.h:
+
+C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_demo.cpp:
+
+C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/warrior.h:
 
 C:/msys64/ucrt64/include/_mingw_stdarg.h:
 
 C:/msys64/ucrt64/include/fileapi.h:
 
 C:/msys64/ucrt64/include/assert.h:
-
-C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/mage.h:
-
-C:/msys64/ucrt64/include/float.h:
 
 C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/main.cpp:
 
@@ -4062,27 +4632,21 @@ C:/vcpkg/installed/x64-windows/include/SDL3/SDL_timer.h:
 
 C:/vcpkg/installed/x64-windows/include/SDL3/SDL_touch.h:
 
-C:/vcpkg/installed/x64-windows/include/SDL3/SDL_version.h:
-
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512dqintrin.h:
 
 C:/vcpkg/installed/x64-windows/include/SDL3/SDL_video.h:
 
-C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/player.cpp:
+C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/combatScreen.cpp:
 
-C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/encounter.cpp:
-
-C:/msys64/ucrt64/include/_mingw_unicode.h:
-
-C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/player.h:
-
-C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/encounter.h:
+C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/combatScreen.h:
 
 C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/enemy.h:
 
-C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/fight.cpp:
-
 C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/fight.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/emmintrin.h:
+
+C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_impl_sdl3.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/algorithm:
 
@@ -4105,6 +4669,20 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchiintrin.h:
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx5124fmapsintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/pstl/glue_algorithm_defs.h:
+
+C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/dice.cpp:
+
+C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/rogue.cpp:
+
+C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/dice.h:
+
+C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/displayWindow.h:
+
+C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/player.cpp:
+
+C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/encounter.cpp:
+
+C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/fight.cpp:
 
 C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/gnoll.cpp:
 
@@ -4344,19 +4922,11 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveoptintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavesintrin.h:
 
-C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/warrior.h:
-
-C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_demo.cpp:
-
 C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_impl_sdl3.cpp:
 
 C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_tables.cpp:
 
 C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/mage.cpp:
-
-C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/rogue.h:
-
-C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/shaman.h:
 
 C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/startStory.h:
 

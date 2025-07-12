@@ -12,6 +12,10 @@ Fight::~Fight() {
 }
 
 void Fight::FightMenu() {
+    ImGui_ImplSDLRenderer3_NewFrame();
+    ImGui_ImplSDL3_NewFrame();
+    ImGui::NewFrame();
+    
     string fightDecision;
     bool validInput = false;
 

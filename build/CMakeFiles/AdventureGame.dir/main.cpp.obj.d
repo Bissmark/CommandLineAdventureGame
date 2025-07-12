@@ -138,6 +138,16 @@ CMakeFiles/AdventureGame.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/istream.tcc \
  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/player.h \
  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/character.h \
+ C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui.h \
+ C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imconfig.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/float.h \
+ C:/msys64/ucrt64/include/float.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
+ C:/msys64/ucrt64/include/stdarg.h \
+ C:/msys64/ucrt64/include/_mingw_stdarg.h \
+ C:/msys64/ucrt64/include/string.h \
+ C:/msys64/ucrt64/include/sec_api/string_s.h \
+ C:/msys64/ucrt64/include/assert.h \
  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/warrior.h \
  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/mage.h \
  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/rogue.h \
@@ -159,16 +169,14 @@ CMakeFiles/AdventureGame.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/pstl/glue_algorithm_defs.h \
  C:/msys64/ucrt64/include/c++/14.2.0/pstl/execution_defs.h \
  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/enemy.h \
+ C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_impl_sdl3.h \
+ C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_impl_sdlrenderer3.h \
  C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/displayWindow.h \
  C:/vcpkg/installed/x64-windows/include/SDL3/SDL.h \
  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_stdinc.h \
  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_platform_defines.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
- C:/msys64/ucrt64/include/stdarg.h \
- C:/msys64/ucrt64/include/_mingw_stdarg.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
- C:/msys64/ucrt64/include/stdint.h C:/msys64/ucrt64/include/string.h \
- C:/msys64/ucrt64/include/sec_api/string_s.h \
+ C:/msys64/ucrt64/include/stdint.h \
  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_begin_code.h \
  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_close_code.h \
  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_assert.h \
@@ -225,9 +233,7 @@ CMakeFiles/AdventureGame.dir/main.cpp.obj: \
  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_tray.h \
  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_version.h \
  C:/vcpkg/installed/x64-windows/include/SDL3/SDL_oldnames.h \
- C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui.h \
- C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imconfig.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/float.h \
- C:/msys64/ucrt64/include/float.h C:/msys64/ucrt64/include/assert.h \
- C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_impl_sdl3.h \
- C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/imgui/imgui_impl_sdlrenderer3.h
+ C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/baseScreen.h \
+ C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/gameState.h \
+ C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/characterCreationScreen.h \
+ C:/Users/Gosh_/Desktop/Programming/Projects/C++/adventureGame/combatScreen.h
